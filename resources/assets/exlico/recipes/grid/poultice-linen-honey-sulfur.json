@@ -1,0 +1,110 @@
+[
+  {
+		"ingredientPattern": "SBS,_L_",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:linen-*" },
+			"S": { "type": "item", "code": "game:powderedsulfur" },
+			"B": { "type": "block", "code": "lc_crock" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresLitres": 0.25
+			}
+		},		
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-linen-honey-sulfur", "quantity": 4  },
+    "recipeGroup": 2
+	},
+  {
+		"ingredientPattern": "SBS,_L_",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:linen-*" },
+			"S": { "type": "item", "code": "game:powderedsulfur" },
+			"B": { "type": "block", "code": "lc_crucible" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresLitres": 0.25
+			}
+		},		
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-linen-honey-sulfur", "quantity": 4  },
+    "recipeGroup": 2
+	},
+  {
+		"ingredientPattern": "SBS,_L_",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:linen-*" },
+			"S": { "type": "item", "code": "game:powderedsulfur" },
+			"B": { "type": "block", "code": "lc_flowerpot-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresLitres": 0.25
+			}
+		},		
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-linen-honey-sulfur", "quantity": 4  },
+    "recipeGroup": 3
+	},
+  {
+		"ingredientPattern": "SBS,_L_",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:linen-*" },
+			"S": { "type": "item", "code": "game:powderedsulfur" },
+			"B": { "type": "block", "code": "lc_planter-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresLitres": 0.25
+			}
+		},		
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-linen-honey-sulfur", "quantity": 4  },
+    "recipeGroup": 3
+	},
+  {
+		"ingredientPattern": "SBS,_L_",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:linen-*" },
+			"S": { "type": "item", "code": "game:powderedsulfur" },
+			"B": { "type": "block", "code": "lc_pot" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresLitres": 0.25
+			}
+		},		
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-linen-honey-sulfur", "quantity": 4  },
+    "recipeGroup": 2
+	},
+  {
+		"ingredientPattern": "SBS,_L_",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:linen-*" },
+			"S": { "type": "item", "code": "game:powderedsulfur" },
+			"B": { "type": "block", "code": "lc_storagevessel-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresLitres": 0.25
+			}
+		},		
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-linen-honey-sulfur", "quantity": 4  },
+    "recipeGroup": 3
+	}
+]

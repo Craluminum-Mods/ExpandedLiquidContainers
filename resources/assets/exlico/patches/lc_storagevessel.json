@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/enabled",
+    "file": "blocktypes/lc_storagevessel.json",
+    "value": false,
+    "condition": {"when": "LC_storagevessel_enabled", "isValue": "false"}
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitres",
+    "file": "blocktypes/lc_storagevessel.json",
+    "value": 50,
+    "condition": { "when": "LC_storagevessel_capacityLitres", "useValue": true }
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "blocktypes/lc_storagevessel.json",
+    "value": { "name": "MilkingContainer" },
+    "condition": { "when": "LC_storagevessel_milking", "isValue": "true" }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "name": "Expanded Liquid Containers",
+  "modid": "exlico",
+  "version": "1.0.0",
+
+  "description": "Adds more liquid containers",
+  "authors": [ "Craluminum2413" ],
+
+  "dependencies": {
+  "game": "1.16.0-pre.1"
+  }
+}

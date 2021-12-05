@@ -1,0 +1,89 @@
+[
+  {
+		"ingredientPattern": "C",
+		"ingredients": { "C": { "type": "block", "code": "game:crock-burned-east" } },
+    "width": 1, "height": 1,
+		"output": { "type": "block", "code": "lc_crock"  }
+	},
+  {
+		"ingredientPattern": "C",
+		"ingredients": { "C": { "type": "block", "code": "lc_crock" } },
+    "width": 1, "height": 1,
+		"output": { "type": "block", "code": "game:crock-burned-east" }
+	},
+
+
+
+  {
+		"ingredientPattern": "C",
+		"ingredients": { "C": { "type": "block", "code": "game:crucible-burned" } },
+    "width": 1, "height": 1,
+		"output": { "type": "block", "code": "lc_crucible"  }
+	},
+  {
+		"ingredientPattern": "C",
+		"ingredients": { "C": { "type": "block", "code": "lc_crucible" } },
+    "width": 1, "height": 1,
+		"output": { "type": "block", "code": "game:crucible-burned" }
+	},
+
+
+
+	{
+		"ingredientPattern": "C",
+		"ingredients": { "C": { "type": "block", "code": "game:flowerpot-*" } },
+    "width": 1, "height": 1,
+		"output": { "type": "block", "code": "lc_flowerpot-*"  }
+	},
+  {
+		"ingredientPattern": "C",
+		"ingredients": { "C": { "type": "block", "code": "lc_flowerpot-*" } },
+    "width": 1, "height": 1,
+		"output": { "type": "block", "code": "game:flowerpot-*" }
+	},
+
+
+
+	{
+		"ingredientPattern": "C",
+		"ingredients": { "C": { "type": "block", "code": "game:planter-*" } },
+    "width": 1, "height": 1,
+		"output": { "type": "block", "code": "lc_planter-*"  }
+	},
+  {
+		"ingredientPattern": "C",
+		"ingredients": { "C": { "type": "block", "code": "lc_planter-*" } },
+    "width": 1, "height": 1,
+		"output": { "type": "block", "code": "game:planter-*" }
+	},
+
+
+
+	{
+		"ingredientPattern": "C",
+		"ingredients": { "C": { "type": "block", "code": "game:claypot-burned" } },
+    "width": 1, "height": 1,
+		"output": { "type": "block", "code": "lc_pot"  }
+	},
+  {
+		"ingredientPattern": "C",
+		"ingredients": { "C": { "type": "block", "code": "lc_pot" } },
+    "width": 1, "height": 1,
+		"output": { "type": "block", "code": "game:claypot-burned" }
+	},
+
+
+
+	{
+		"ingredientPattern": "C",
+		"ingredients": { "C": { "type": "block", "code": "game:storagevessel-*" } },
+    "width": 1, "height": 1,
+		"output": { "type": "block", "code": "lc_storagevessel-*"  }
+	},
+  {
+		"ingredientPattern": "C",
+		"ingredients": { "C": { "type": "block", "code": "lc_storagevessel-*" } },
+    "width": 1, "height": 1,
+		"output": { "type": "block", "code": "game:storagevessel-*" }
+	}
+]

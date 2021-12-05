@@ -1,0 +1,125 @@
+[
+  {
+		"ingredientPattern": "_L_,LBL,CLC",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:papyrustops" },
+			"C": { "type": "item", "code": "game:clay-*" },
+			"B": { "type": "block", "code": "lc_crock" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresQuantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "game:beenade-opened"  },
+    "recipeGroup": 2
+	},
+
+
+
+  {
+		"ingredientPattern": "_L_,LBL,CLC",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:papyrustops" },
+			"C": { "type": "item", "code": "game:clay-*" },
+			"B": { "type": "block", "code": "lc_crucible" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresQuantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "game:beenade-opened"  },
+    "recipeGroup": 2
+	},
+
+
+
+  {
+		"ingredientPattern": "_L_,LBL,CLC",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:papyrustops" },
+			"C": { "type": "item", "code": "game:clay-*" },
+			"B": { "type": "block", "code": "lc_flowerpot-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresQuantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "game:beenade-opened"  },
+    "recipeGroup": 3
+	},
+
+
+
+  {
+		"ingredientPattern": "_L_,LBL,CLC",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:papyrustops" },
+			"C": { "type": "item", "code": "game:clay-*" },
+			"B": { "type": "block", "code": "lc_planter-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresQuantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "game:beenade-opened"  },
+    "recipeGroup": 3
+	},
+
+
+
+  {
+		"ingredientPattern": "_L_,LBL,CLC",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:papyrustops" },
+			"C": { "type": "item", "code": "game:clay-*" },
+			"B": { "type": "block", "code": "lc_pot" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresQuantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "game:beenade-opened"  },
+    "recipeGroup": 2
+	},
+
+
+	
+  {
+		"ingredientPattern": "_L_,LBL,CLC",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:papyrustops" },
+			"C": { "type": "item", "code": "game:clay-*" },
+			"B": { "type": "block", "code": "lc_storagevessel-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresQuantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "game:beenade-opened"  },
+    "recipeGroup": 3
+	}
+]

@@ -1,0 +1,122 @@
+[
+  {
+		"ingredientPattern": "WF",
+		"ingredients": {
+			"W": { "type": "block", "code": "lc_crock" },
+			"F": { "type": "item", "code": "game:flour-*",
+        "allowedVariants": ["flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"],
+        "name": "type" }
+		},
+		"width": 2,
+		"height": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:waterportion" },
+				"requiresLitres": 1
+			}
+		},
+		"shapeless": true,
+		"output": { "type": "item", "code": "game:dough-{type}" },
+    "recipeGroup": 2
+	},
+  {
+		"ingredientPattern": "WF",
+		"ingredients": {
+			"W": { "type": "block", "code": "lc_crucible" },
+			"F": { "type": "item", "code": "game:flour-*",
+        "allowedVariants": ["flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"],
+        "name": "type" }
+		},
+		"width": 2,
+		"height": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:waterportion" },
+				"requiresLitres": 1
+			}
+		},
+		"shapeless": true,
+		"output": { "type": "item", "code": "game:dough-{type}" },
+    "recipeGroup": 2
+	},
+  {
+		"ingredientPattern": "WF",
+		"ingredients": {
+			"W": { "type": "block", "code": "lc_flowerpot-*" },
+			"F": { "type": "item", "code": "game:flour-*",
+        "allowedVariants": ["flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"],
+        "name": "type" }
+		},
+		"width": 2,
+		"height": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:waterportion" },
+				"requiresLitres": 1
+			}
+		},
+		"shapeless": true,
+		"output": { "type": "item", "code": "game:dough-{type}" },
+    "recipeGroup": 3
+	},
+  {
+		"ingredientPattern": "WF",
+		"ingredients": {
+			"W": { "type": "block", "code": "lc_planter-*" },
+			"F": { "type": "item", "code": "game:flour-*",
+        "allowedVariants": ["flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"],
+        "name": "type" }
+		},
+		"width": 2,
+		"height": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:waterportion" },
+				"requiresLitres": 1
+			}
+		},
+		"shapeless": true,
+		"output": { "type": "item", "code": "game:dough-{type}" },
+    "recipeGroup": 3
+	},
+  {
+		"ingredientPattern": "WF",
+		"ingredients": {
+			"W": { "type": "block", "code": "lc_pot" },
+			"F": { "type": "item", "code": "game:flour-*",
+        "allowedVariants": ["flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"],
+        "name": "type" }
+		},
+		"width": 2,
+		"height": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:waterportion" },
+				"requiresLitres": 1
+			}
+		},
+		"shapeless": true,
+		"output": { "type": "item", "code": "game:dough-{type}" },
+    "recipeGroup": 2
+	},
+  {
+		"ingredientPattern": "WF",
+		"ingredients": {
+			"W": { "type": "block", "code": "lc_storagevessel-*" },
+			"F": { "type": "item", "code": "game:flour-*",
+        "allowedVariants": ["flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"],
+        "name": "type" }
+		},
+		"width": 2,
+		"height": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:waterportion" },
+				"requiresLitres": 1
+			}
+		},
+		"shapeless": true,
+		"output": { "type": "item", "code": "game:dough-{type}" },
+    "recipeGroup": 3
+	}
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "ingredientPattern": "WB",
+    "ingredients": {
+      "W": { "type": "block", "code": "lc_crock" },
+      "B": { "type": "item", "code": "game:bandage-clean" }
+    },
+    "width": 2,
+    "height": 1,
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:spiritportion-*" },
+        "requiresLitres": 0.5
+      }
+    },
+    "shapeless": true,
+    "output": { "type": "item", "code": "game:bandage-alcoholed"  },
+    "recipeGroup": 3
+  },
+
+
+
+  {
+    "ingredientPattern": "WB",
+    "ingredients": {
+      "W": { "type": "block", "code": "lc_crucible" },
+      "B": { "type": "item", "code": "game:bandage-clean" }
+    },
+    "width": 2,
+    "height": 1,
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:spiritportion-*" },
+        "requiresLitres": 0.5
+      }
+    },
+    "shapeless": true,
+    "output": { "type": "item", "code": "game:bandage-alcoholed"  },
+    "recipeGroup": 3
+  },
+
+
+
+  {
+    "ingredientPattern": "WB",
+    "ingredients": {
+      "W": { "type": "block", "code": "lc_flowerpot-*" },
+      "B": { "type": "item", "code": "game:bandage-clean" }
+    },
+    "width": 2,
+    "height": 1,
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:spiritportion-*" },
+        "requiresLitres": 0.5
+      }
+    },
+    "shapeless": true,
+    "output": { "type": "item", "code": "game:bandage-alcoholed"  },
+    "recipeGroup": 4
+  },
+
+
+
+  {
+    "ingredientPattern": "WB",
+    "ingredients": {
+      "W": { "type": "block", "code": "lc_planter-*" },
+      "B": { "type": "item", "code": "game:bandage-clean" }
+    },
+    "width": 2,
+    "height": 1,
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:spiritportion-*" },
+        "requiresLitres": 0.5
+      }
+    },
+    "shapeless": true,
+    "output": { "type": "item", "code": "game:bandage-alcoholed"  },
+    "recipeGroup": 4
+  },
+
+
+
+  {
+    "ingredientPattern": "WB",
+    "ingredients": {
+      "W": { "type": "block", "code": "lc_pot" },
+      "B": { "type": "item", "code": "game:bandage-clean" }
+    },
+    "width": 2,
+    "height": 1,
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:spiritportion-*" },
+        "requiresLitres": 0.5
+      }
+    },
+    "shapeless": true,
+    "output": { "type": "item", "code": "game:bandage-alcoholed"  },
+    "recipeGroup": 3
+  },
+
+
+  
+  {
+    "ingredientPattern": "WB",
+    "ingredients": {
+      "W": { "type": "block", "code": "lc_storagevessel-*" },
+      "B": { "type": "item", "code": "game:bandage-clean" }
+    },
+    "width": 2,
+    "height": 1,
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:spiritportion-*" },
+        "requiresLitres": 0.5
+      }
+    },
+    "shapeless": true,
+    "output": { "type": "item", "code": "game:bandage-alcoholed"  },
+    "recipeGroup": 4
+  }
+]

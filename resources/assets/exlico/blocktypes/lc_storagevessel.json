@@ -1,0 +1,74 @@
+{
+	"code": "lc_storagevessel",
+	"class": "BlockLiquidContainerTopOpened",
+	"behaviors": [
+		{"name": "GroundStorable",
+			"properties": {
+				"layout": "SingleCenter",
+				"collisionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 1,
+					"y2": 0.9375,
+					"z2": 1
+				}
+			}
+		},
+		{ "name": "Unplaceable" },
+		{"name": "RightClickPickup" }
+  ],
+	"entityBehaviors": [{ "name": "Animatable" }],
+	"attributes": {
+    "liquidContainerProps": {
+      "capacityLitres": 50,
+      "transferSizeLitres": 1,
+      "emptyShapeLoc": "shapes/storagevessel-empty-ground",
+      "opaqueContentShapeLoc": "shapes/storagevessel-contents",
+      "liquidContentShapeLoc": "shapes/storagevessel-liquidcontents",
+      "liquidMaxYTranslate": 0.61224489795
+    }
+	},
+	"variantgroups": [
+		{ "code": "variant", "states": ["burned", "ashforest", "chthonic", "copper", "earthen", "rain", "cowrie", "rime", "oxblood", "loam", "undergrowth", "beehive", "harvest", "honeydew", "rutile", "seasalt", "springflowers", "volcanic"] }
+	],
+	"shape": { "base": "storagevessel-empty-ground" },
+	"doNotRenderAtLod2": true,
+	"blockmaterial": "Ceramic",
+	"creativeInventory": { "exlico": ["*"] },
+	"creativeinventoryStacksByType": {
+		"*-burned":
+		[
+			{ 
+				"tabs": ["general", "decorative"],
+				"stacks": [
+					{ "type": "block", "code": "lc_storagevessel-burned", "attributes": { "ucontents": [{ "type": "item", "code": "game:waterportion", "makefull": true }] } },
+					{ "type": "block", "code": "lc_storagevessel-burned", "attributes": { "ucontents": [{ "type": "item", "code": "game:honeyportion", "makefull": true }] } },
+					{ "type": "block", "code": "lc_storagevessel-burned" }
+				]
+			}
+		]
+	},
+	"openSound": "game:sounds/block/vesselopen",
+	"closeSound": "game:sounds/block/vesselclose",
+	"replaceable": 1000,
+	"liquidSelectable": true,
+	"resistance": 0.8,
+	"lightAbsorption": 0,
+	"maxStackSize": 4,
+	"textures": {
+		"ceramic": { "base": "game:block/clay/ceramic" },
+		"top": { "base": "game:block/clay/vessel/top/{variant}" },
+		"sides": { "base": "game:block/clay/vessel/sides/{variant}" },
+		"inside": { "base": "game:block/clay/vessel/inside/{variant}" }
+	},
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"collisionSelectionBox": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 1, "z2": 0.875 },
+	"heldTpIdleAnimation": "holdunderarm",
+	"tpHandTransform": {
+		"translation": { "x": -1, "y": -0.5, "z": -0.5 },
+		"rotation": { "x": 25, "y": -20, "z": -99 },
+		"scale": 0.56
+	}
+}

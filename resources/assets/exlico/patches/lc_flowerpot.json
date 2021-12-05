@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/enabled",
+    "file": "blocktypes/lc_flowerpot.json",
+    "value": false,
+    "condition": {"when": "LC_flowerpot_enabled", "isValue": "false"}
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitres",
+    "file": "blocktypes/lc_flowerpot.json",
+    "value": 10,
+    "condition": { "when": "LC_flowerpot_capacityLitres", "useValue": true }
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "blocktypes/lc_flowerpot.json",
+    "value": { "name": "MilkingContainer" },
+    "condition": { "when": "LC_flowerpot_milking", "isValue": "true" }
+  }
+]
