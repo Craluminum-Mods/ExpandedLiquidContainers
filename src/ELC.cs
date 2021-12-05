@@ -3,7 +3,8 @@
 [assembly: ModInfo( "Expanded Liquid Containers", Version = "1.0.0",
 	Description = "Adds more liquid containers",
 		IconPath = "modicon.png",
-		Authors     = new []{ "Craluminum2413" } )]
+		Website	= "https://github.com/Craluminum2413/ExpandedLiquidContainers",
+		Authors	= new []{ "Craluminum2413" } )]
 
 namespace ExpandedLiquidContainers
 {
