@@ -1,6 +1,6 @@
 ﻿using Vintagestory.API.Common;
 
-[assembly: ModInfo( "Expanded Liquid Containers", Version = "1.0.0",
+[assembly: ModInfo( "Expanded Liquid Containers", Version = "1.0.1",
 	Description = "Adds more liquid containers",
 		IconPath = "modicon.png",
 		Website	= "https://github.com/Craluminum2413/ExpandedLiquidContainers",
