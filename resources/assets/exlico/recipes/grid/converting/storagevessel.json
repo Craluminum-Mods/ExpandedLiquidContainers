@@ -1,0 +1,70 @@
+[
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "game:storagevessel-*",
+        "name": "type",
+        "allowedVariants": [
+          "ashforest",
+          "beehive",
+          "burned",
+          "chthonic",
+          "copper",
+          "cowrie",
+          "earthen",
+          "harvest",
+          "honeydew",
+          "loam",
+          "oxblood",
+          "rain",
+          "rime",
+          "rutile",
+          "seasalt",
+          "springflowers",
+          "undergrowth",
+          "volcanic"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": { "type": "block", "code": "lc_storagevessel-{type}" }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "lc_storagevessel-*",
+        "name": "type",
+        "allowedVariants": [
+          "ashforest",
+          "beehive",
+          "burned",
+          "chthonic",
+          "copper",
+          "cowrie",
+          "earthen",
+          "harvest",
+          "honeydew",
+          "loam",
+          "oxblood",
+          "rain",
+          "rime",
+          "rutile",
+          "seasalt",
+          "springflowers",
+          "undergrowth",
+          "volcanic"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": { "type": "block", "code": "game:storagevessel-{type}" }
+  }
+]

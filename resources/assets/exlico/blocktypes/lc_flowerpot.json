@@ -28,24 +28,23 @@
       "liquidMaxYTranslate": 0.345
     }
 	},
-	"variantgroups": [{ "code": "type", "states": ["burnt", "amber", "boneash", "celadon", "copper", "earthern", "moss", "ochre", "rutile", "seasalt", "tenmoku"] }],
+	"variantgroups": [{ "code": "type", "states": [
+    "amber",
+    "boneash",
+    "burnt",
+    "celadon",
+    "copper",
+    "earthern",
+    "moss",
+    "ochre",
+    "rutile",
+    "seasalt",
+    "tenmoku"
+  ] }],
 	"shape": { "base": "flowerpot-empty-ground" },
 	"doNotRenderAtLod2": true,
 	"blockmaterial": "Ceramic",
 	"creativeInventory": { "exlico": ["*"] },
-	"creativeinventoryStacksByType": {
-		"*-burnt":
-		[
-			{ 
-				"tabs": ["general", "decorative"],
-				"stacks": [
-					{ "type": "block", "code": "lc_flowerpot-burnt", "attributes": { "ucontents": [{ "type": "item", "code": "game:waterportion", "makefull": true }] } },
-					{ "type": "block", "code": "lc_flowerpot-burnt", "attributes": { "ucontents": [{ "type": "item", "code": "game:honeyportion", "makefull": true }] } },
-					{ "type": "block", "code": "lc_flowerpot-burnt" }
-				]
-			}
-		]
-	},
 	"replaceable": 900,
 	"liquidSelectable": true,
 	"resistance": 1.5,

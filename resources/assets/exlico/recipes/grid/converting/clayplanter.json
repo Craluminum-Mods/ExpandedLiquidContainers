@@ -1,0 +1,56 @@
+[
+  {
+		"ingredientPattern": "C",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clayplanter-*",
+				"name": "type",
+				"allowedVariants": [
+          "burnt",
+          "amber",
+          "ashforest",
+          "copper",
+          "cthonic",
+          "earthern",
+          "loam",
+          "ochre",
+          "rime",
+          "seasalt",
+          "tenmoku",
+          "undergrowth"
+        ]
+			}
+		},
+    "width": 1, "height": 1,
+		"shapeless": true,
+		"output": { "type": "block", "code": "lc_planter-{type}" }
+	},
+  {
+		"ingredientPattern": "C",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "lc_planter-*",
+				"name": "type",
+				"allowedVariants": [
+					"burnt",
+					"amber",
+					"ashforest",
+					"copper",
+					"cthonic",
+					"earthern",
+					"loam",
+					"ochre",
+					"rime",
+					"seasalt",
+					"tenmoku",
+					"undergrowth"
+				]
+			}
+		},
+    "width": 1, "height": 1,
+		"shapeless": true,
+		"output": { "type": "block", "code": "game:clayplanter-{type}" }
+	}
+]

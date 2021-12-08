@@ -28,24 +28,24 @@
       "liquidMaxYTranslate": 0.42
     }
 	},
-	"variantgroups": [{ "code": "type", "states": ["burnt", "amber", "ashforest", "copper", "cthonic", "earthern", "loam", "ochre", "rime", "seasalt", "tenmoku", "undergrowth"] }],
+	"variantgroups": [{ "code": "type", "states": [
+    "amber",
+    "ashforest",
+    "burnt",
+    "copper",
+    "cthonic",
+    "earthern",
+    "loam",
+    "ochre",
+    "rime",
+    "seasalt",
+    "tenmoku",
+    "undergrowth"
+  ] }],
 	"shape": { "base": "planter-empty-ground" },
 	"doNotRenderAtLod2": true,
 	"blockmaterial": "Ceramic",
 	"creativeInventory": { "exlico": ["*"] },
-	"creativeinventoryStacksByType": {
-		"*-burnt":
-		[
-			{ 
-				"tabs": ["general", "decorative"],
-				"stacks": [
-					{ "type": "block", "code": "lc_planter-burnt", "attributes": { "ucontents": [{ "type": "item", "code": "game:waterportion", "makefull": true }] } },
-					{ "type": "block", "code": "lc_planter-burnt", "attributes": { "ucontents": [{ "type": "item", "code": "game:honeyportion", "makefull": true }] } },
-					{ "type": "block", "code": "lc_planter-burnt" }
-				]
-			}
-		]
-	},
 	"replaceable": 900,
 	"liquidSelectable": true,
 	"resistance": 1.5,

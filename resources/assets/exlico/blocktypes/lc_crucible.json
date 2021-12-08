@@ -32,14 +32,6 @@
 	"doNotRenderAtLod2": true,
 	"blockmaterial": "Ceramic",
 	"creativeInventory": { "exlico": ["*"] },
-	"creativeinventoryStacks": [{
-				"tabs": ["general", "decorative"],
-				"stacks": [
-					{ "type": "block", "code": "lc_crucible", "attributes": { "ucontents": [{ "type": "item", "code": "game:waterportion", "makefull": true }] } },
-					{ "type": "block", "code": "lc_crucible", "attributes": { "ucontents": [{ "type": "item", "code": "game:honeyportion", "makefull": true }] } },
-					{ "type": "block", "code": "lc_crucible" }
-				]
-  }],
 	"replaceable": 300,
 	"liquidSelectable": true,
 	"resistance": 2,

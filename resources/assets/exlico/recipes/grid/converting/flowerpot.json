@@ -1,0 +1,56 @@
+[
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "game:flowerpot-*",
+        "name": "type",
+        "allowedVariants": [
+          "burnt",
+          "amber",
+          "boneash",
+          "celadon",
+          "copper",
+          "earthern",
+          "moss",
+          "ochre",
+          "rutile",
+          "seasalt",
+          "tenmoku"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": { "type": "block", "code": "lc_flowerpot-{type}" }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "lc_flowerpot-*",
+        "name": "type",
+        "allowedVariants": [
+          "burnt",
+          "amber",
+          "boneash",
+          "celadon",
+          "copper",
+          "earthern",
+          "moss",
+          "ochre",
+          "rutile",
+          "seasalt",
+          "tenmoku"
+        ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": { "type": "block", "code": "game:flowerpot-{type}" }
+  }
+]

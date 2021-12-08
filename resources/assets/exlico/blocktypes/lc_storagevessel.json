@@ -30,25 +30,31 @@
     }
 	},
 	"variantgroups": [
-		{ "code": "variant", "states": ["burned", "ashforest", "chthonic", "copper", "earthen", "rain", "cowrie", "rime", "oxblood", "loam", "undergrowth", "beehive", "harvest", "honeydew", "rutile", "seasalt", "springflowers", "volcanic"] }
+		{ "code": "type", "states": [
+      "ashforest",
+      "beehive",
+      "burned",
+      "chthonic",
+      "copper",
+      "cowrie",
+      "earthen",
+      "harvest",
+      "honeydew",
+      "loam",
+      "oxblood",
+      "rain",
+      "rime",
+      "rutile",
+      "seasalt",
+      "springflowers",
+      "undergrowth",
+      "volcanic"
+    ] }
 	],
 	"shape": { "base": "storagevessel-empty-ground" },
 	"doNotRenderAtLod2": true,
 	"blockmaterial": "Ceramic",
 	"creativeInventory": { "exlico": ["*"] },
-	"creativeinventoryStacksByType": {
-		"*-burned":
-		[
-			{ 
-				"tabs": ["general", "decorative"],
-				"stacks": [
-					{ "type": "block", "code": "lc_storagevessel-burned", "attributes": { "ucontents": [{ "type": "item", "code": "game:waterportion", "makefull": true }] } },
-					{ "type": "block", "code": "lc_storagevessel-burned", "attributes": { "ucontents": [{ "type": "item", "code": "game:honeyportion", "makefull": true }] } },
-					{ "type": "block", "code": "lc_storagevessel-burned" }
-				]
-			}
-		]
-	},
 	"openSound": "game:sounds/block/vesselopen",
 	"closeSound": "game:sounds/block/vesselclose",
 	"replaceable": 1000,
@@ -58,9 +64,9 @@
 	"maxStackSize": 4,
 	"textures": {
 		"ceramic": { "base": "game:block/clay/ceramic" },
-		"top": { "base": "game:block/clay/vessel/top/{variant}" },
-		"sides": { "base": "game:block/clay/vessel/sides/{variant}" },
-		"inside": { "base": "game:block/clay/vessel/inside/{variant}" }
+		"top": { "base": "game:block/clay/vessel/top/{type}" },
+		"sides": { "base": "game:block/clay/vessel/sides/{type}" },
+		"inside": { "base": "game:block/clay/vessel/inside/{type}" }
 	},
 	"sidesolid": { "all": false },
 	"sideopaque": { "all": false },
