@@ -1,0 +1,24 @@
+[
+  {
+    "ingredientPattern": "_L_,LBL,CLC",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:*",
+        "allowedVariants": ["cattailtops", "papyrustops"]
+      },
+      "C": { "type": "item", "code": "game:clay-*" },
+      "B": { "type": "block", "code": "exlico:*" }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:honeyportion" },
+        "requiresQuantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "game:beenade-opened" },
+    "recipeGroup": 2
+  }
+]

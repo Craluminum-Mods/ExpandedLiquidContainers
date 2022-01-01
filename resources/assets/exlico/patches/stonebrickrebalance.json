@@ -2,29 +2,29 @@
   {
     "op": "add",
     "path": "/enabled",
-    "file": "recipes/sbr/lc_of_liquidmortar_to_mortar.json",
+    "file": "exlico:recipes/grid/sbr/lc_of_liquidmortar_to_mortar.json",
     "value": false,
-    "dependsOn": [{ "modid": "sbr", "invert": false }]
+    "dependsOn": [{ "modid": "sbr", "invert": true }]
   },
   {
     "op": "add",
     "path": "/enabled",
-    "file": "recipes/sbr/lc_stonebricks.json",
+    "file": "exlico:recipes/grid/sbr/lc_stonebricks.json",
     "value": false,
-    "dependsOn": [{ "modid": "sbr", "invert": false }]
+    "dependsOn": [{ "modid": "sbr", "invert": true }]
   },
   {
     "op": "add",
     "path": "/enabled",
-    "file": "recipes/sbr/lc_stonebrickslab.json",
+    "file": "exlico:recipes/grid/sbr/lc_stonebrickslab.json",
     "value": false,
-    "dependsOn": [{ "modid": "sbr", "invert": false }]
+    "dependsOn": [{ "modid": "sbr", "invert": true }]
   },
   {
     "op": "add",
     "path": "/enabled",
-    "file": "recipes/sbr/lc_stonebrickstairs.json",
+    "file": "exlico:recipes/grid/sbr/lc_stonebrickstairs.json",
     "value": false,
-    "dependsOn": [{ "modid": "sbr", "invert": false }]
+    "dependsOn": [{ "modid": "sbr", "invert": true }]
   }
 ]

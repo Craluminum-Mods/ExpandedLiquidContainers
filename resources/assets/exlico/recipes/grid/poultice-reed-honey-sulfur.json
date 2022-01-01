@@ -1,8 +1,13 @@
 [
   {
-    "ingredientPattern": "SBS,_L_",
+    "ingredientPattern": "SBS,_C_",
     "ingredients": {
-      "L": { "type": "block", "code": "game:linen-*" },
+      "C": {
+        "type": "item",
+        "code": "game:*",
+        "allowedVariants": ["cattailtops", "papyrustops"],
+        "quantity": 2
+      },
       "S": { "type": "item", "code": "game:powderedsulfur" },
       "B": { "type": "block", "code": "exlico:*" }
     },
@@ -16,7 +21,7 @@
     "height": 2,
     "output": {
       "type": "item",
-      "code": "game:poultice-linen-honey-sulfur",
+      "code": "game:poultice-reed-honey-sulfur",
       "quantity": 4
     },
     "recipeGroup": 2
