@@ -2,8 +2,8 @@
   {
     "ingredientPattern": "C",
     "ingredients": {
-			"C": { "type": "block", "code": "game:crucible-burned" }
-		},
+      "C": { "type": "block", "code": "game:crucible-burned" }
+    },
     "width": 1,
     "height": 1,
     "shapeless": true,
@@ -12,8 +12,8 @@
   {
     "ingredientPattern": "C",
     "ingredients": {
-			"C": { "type": "block", "code": "lc_crucible" }
-		},
+      "C": { "type": "block", "code": "lc_crucible" }
+    },
     "width": 1,
     "height": 1,
     "shapeless": true,

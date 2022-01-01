@@ -2,8 +2,8 @@
   {
     "ingredientPattern": "C",
     "ingredients": {
-			"C": { "type": "block", "code": "game:crock-burned-east" }
-		},
+      "C": { "type": "block", "code": "game:crock-burned-east" }
+    },
     "width": 1,
     "height": 1,
     "shapeless": true,
@@ -12,8 +12,8 @@
   {
     "ingredientPattern": "C",
     "ingredients": {
-			"C": { "type": "block", "code": "lc_crock" }
-		},
+      "C": { "type": "block", "code": "lc_crock" }
+    },
     "width": 1,
     "height": 1,
     "shapeless": true,

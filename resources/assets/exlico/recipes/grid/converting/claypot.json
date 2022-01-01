@@ -1,16 +1,18 @@
 [
   {
-		"ingredientPattern": "C",
-		"ingredients": { "C": { "type": "block", "code": "game:claypot-burned" } },
-    "width": 1, "height": 1,
-		"shapeless": true,
-		"output": { "type": "block", "code": "lc_pot"  }
-	},
+    "ingredientPattern": "C",
+    "ingredients": { "C": { "type": "block", "code": "game:claypot-burned" } },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": { "type": "block", "code": "lc_pot" }
+  },
   {
-		"ingredientPattern": "C",
-		"ingredients": { "C": { "type": "block", "code": "lc_pot" } },
-    "width": 1, "height": 1,
-		"shapeless": true,
-		"output": { "type": "block", "code": "game:claypot-burned" }
-	}
+    "ingredientPattern": "C",
+    "ingredients": { "C": { "type": "block", "code": "lc_pot" } },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": { "type": "block", "code": "game:claypot-burned" }
+  }
 ]
