@@ -1,0 +1,30 @@
+[
+  {
+    "op": "add",
+    "path": "/enabled",
+    "file": "recipes/sbr/lc_of_liquidmortar_to_mortar.json",
+    "value": false,
+    "dependsOn": [{ "modid": "sbr", "invert": false }]
+  },
+  {
+    "op": "add",
+    "path": "/enabled",
+    "file": "recipes/sbr/lc_stonebricks.json",
+    "value": false,
+    "dependsOn": [{ "modid": "sbr", "invert": false }]
+  },
+  {
+    "op": "add",
+    "path": "/enabled",
+    "file": "recipes/sbr/lc_stonebrickslab.json",
+    "value": false,
+    "dependsOn": [{ "modid": "sbr", "invert": false }]
+  },
+  {
+    "op": "add",
+    "path": "/enabled",
+    "file": "recipes/sbr/lc_stonebrickstairs.json",
+    "value": false,
+    "dependsOn": [{ "modid": "sbr", "invert": false }]
+  }
+]

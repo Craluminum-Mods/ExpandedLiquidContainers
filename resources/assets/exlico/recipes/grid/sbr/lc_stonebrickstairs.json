@@ -1,0 +1,40 @@
+{
+  "ingredientPattern": "LW_,LL_",
+  "ingredients": {
+    "W": { "type": "block", "code": "exlico:*" },
+    "L": {
+      "type": "item",
+      "code": "sbr:largebrick-*",
+      "name": "rock",
+      "allowedVariants": [
+        "andesite",
+        "chalk",
+        "chert",
+        "conglomerate",
+        "limestone",
+        "claystone",
+        "granite",
+        "sandstone",
+        "shale",
+        "basalt",
+        "peridotite",
+        "phyllite",
+        "slate",
+        "bauxite"
+      ]
+    }
+  },
+  "recipeGroup": 2,
+  "width": 3,
+  "height": 2,
+  "attributes": {
+    "liquidContainerProps": {
+      "requiresContent": { "type": "item", "code": "sbr:liquidmortar" },
+      "requiresLitres": 0.25
+    }
+  },
+  "output": {
+    "type": "block",
+    "code": "game:stonebrickstairs-{rock}-up-north-free"
+  }
+}
