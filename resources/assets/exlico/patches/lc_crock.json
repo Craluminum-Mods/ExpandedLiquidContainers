@@ -4,20 +4,20 @@
     "path": "/enabled",
     "file": "blocktypes/lc_crock.json",
     "value": false,
-    "condition": {"when": "LC_crock_enabled", "isValue": "false"}
+    "condition": {"when": "lcCrockEnabled", "isValue": "false"}
   }, 
   {
     "op": "replace",
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_crock.json",
     "value": 8,
-    "condition": { "when": "LC_crock_capacityLitres", "useValue": true }
+    "condition": { "when": "lcCrockLitres", "useValue": true }
   },
   {
     "op": "add",
     "path": "/behaviors/-",
     "file": "blocktypes/lc_crock.json",
     "value": { "name": "MilkingContainer" },
-    "condition": { "when": "LC_crock_milking", "isValue": "true" }
+    "condition": { "when": "lcCrockMilk", "isValue": "true" }
   }
 ]

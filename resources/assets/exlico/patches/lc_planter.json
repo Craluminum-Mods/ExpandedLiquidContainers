@@ -4,20 +4,20 @@
     "path": "/enabled",
     "file": "blocktypes/lc_planter.json",
     "value": false,
-    "condition": {"when": "LC_planter_enabled", "isValue": "false"}
+    "condition": {"when": "lcPlanterEnabled", "isValue": "false"}
   },
   {
     "op": "replace",
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_planter.json",
     "value": 25,
-    "condition": { "when": "LC_planter_capacityLitres", "useValue": true }
+    "condition": { "when": "lcPlanterLitres", "useValue": true }
   },
   {
     "op": "add",
     "path": "/behaviors/-",
     "file": "blocktypes/lc_planter.json",
     "value": { "name": "MilkingContainer" },
-    "condition": { "when": "LC_planter_milking", "isValue": "true" }
+    "condition": { "when": "lcPlanterMilk", "isValue": "true" }
   }
 ]

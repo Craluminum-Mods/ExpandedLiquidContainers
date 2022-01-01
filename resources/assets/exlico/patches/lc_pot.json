@@ -4,20 +4,20 @@
     "path": "/enabled",
     "file": "blocktypes/lc_pot.json",
     "value": false,
-    "condition": {"when": "LC_cookingpot_enabled", "isValue": "false"}
+    "condition": {"when": "lcCookingPotEnabled", "isValue": "false"}
   },
   {
     "op": "replace",
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_pot.json",
     "value": 10,
-    "condition": { "when": "LC_cookingpot_capacityLitres", "useValue": true }
+    "condition": { "when": "lcCookingPotLitres", "useValue": true }
   },
   {
     "op": "add",
     "path": "/behaviors/-",
     "file": "blocktypes/lc_pot.json",
     "value": { "name": "MilkingContainer" },
-    "condition": { "when": "LC_cookingpot_milking", "isValue": "true" }
+    "condition": { "when": "lcCookingPotMilk", "isValue": "true" }
   }
 ]
