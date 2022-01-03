@@ -53,7 +53,7 @@
   "liquidSelectable": true,
   "resistance": 1.5,
   "lightAbsorption": 1,
-  "maxStackSize": 8,
+  "maxStackSize": 1,
   "textures": {
     "sides": { "base": "game:block/clay/flowerpot/sides/{type}" },
     "topbottom": { "base": "game:block/clay/flowerpot/topbottom/{type}" }

@@ -35,7 +35,7 @@
   "liquidSelectable": true,
   "resistance": 1.5,
   "lightAbsorption": 0,
-  "maxStackSize": 8,
+  "maxStackSize": 1,
   "textures": {
     "ceramic": { "base": "game:block/clay/ceramic" }
   },

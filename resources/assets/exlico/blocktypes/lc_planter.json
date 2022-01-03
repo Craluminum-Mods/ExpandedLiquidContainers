@@ -54,7 +54,7 @@
   "liquidSelectable": true,
   "resistance": 1.5,
   "lightAbsorption": 1,
-  "maxStackSize": 8,
+  "maxStackSize": 1,
   "texturesByType": {
     "*-burnt": {
       "sides": { "base": "game:block/clay/ceramic" },

@@ -43,7 +43,7 @@
   "liquidSelectable": true,
   "resistance": 1,
   "lightAbsorption": 0,
-  "maxStackSize": 1,
+  "maxStackSize": 4,
   "sideopaque": { "all": false },
   "sidesolid": { "all": false },
   "emitSideAO": { "all": false },
@@ -77,7 +77,7 @@
   },
   "tpHandTransform": {
     "translation": { "x": -0.58, "y": 0, "z": -0.34 },
-    "rotation": { "x": 0, "y": 18, "z": -74 },
+    "rotation": { "x": 0, "y": 18, "z": -80 },
     "origin": { "x": 0.5, "y": 0, "z": 0.5 },
     "scale": 0.8
   }

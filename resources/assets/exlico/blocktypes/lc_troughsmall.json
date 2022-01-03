@@ -1,0 +1,90 @@
+{
+  "code": "lc_troughsmall",
+  "class": "BlockLiquidContainerTopOpened",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0.25,
+          "y1": 0,
+          "z1": 0.0625,
+          "x2": 0.75,
+          "y2": 0.25,
+          "z2": 0.9375
+        }
+      }
+    },
+    { "name": "Unplaceable" },
+    { "name": "RightClickPickup" }
+  ],
+  "attributes": {
+    "liquidContainerProps": {
+      "capacityLitres": 16,
+      "transferSizeLitres": 1,
+      "emptyShapeLoc": "shapes/troughsmall-empty-ground",
+      "opaqueContentShapeLoc": "shapes/troughsmall-contents",
+      "liquidContentShapeLoc": "shapes/troughsmall-liquidcontents",
+      "liquidMaxYTranslate": 0.15
+    },
+    "groundStorageTransform": {
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "scale": 1
+    }
+  },
+  "shape": { "base": "troughsmall-empty-ground" },
+  "textures": {
+    "bottom-inside": { "base": "game:block/wood/trough/large/bottom-inside" },
+    "outer-ring": { "base": "game:block/wood/trough/large/outer-ring" },
+    "wood": { "base": "game:block/wood/trough/large/wood" }
+  },
+  "blockmaterial": "Wood",
+  "creativeInventory": { "exlico": ["*"] },
+  "liquidSelectable": true,
+  "resistance": 2,
+  "lightAbsorption": 0,
+  "materialDensity": 600,
+  "maxStackSize": 1,
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
+  "collisionSelectionBox": {
+    "x1": 0.25,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.75,
+    "y2": 0.25,
+    "z2": 0.9375
+  },
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "heldTpUseAnimation": "twohandplaceblock",
+  "guiTransform": {
+    "translation": { "x": -1, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.22, "z": 0.5 },
+    "scale": 1.53
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0.16, "y": 0.4, "z": 0 },
+    "rotation": { "x": 85, "y": 54, "z": -70 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.9
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.1, "y": -0.38, "z": -0.17 },
+    "rotation": { "x": 100, "y": -13, "z": -74 },
+    "scale": 0.88
+  },
+  "groundTransform": {
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 2.5
+  }
+}

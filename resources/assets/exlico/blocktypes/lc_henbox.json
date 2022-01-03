@@ -26,7 +26,7 @@
       "emptyShapeLoc": "shapes/henbox-empty-ground",
       "opaqueContentShapeLoc": "shapes/henbox-contents",
       "liquidContentShapeLoc": "shapes/henbox-liquidcontents",
-      "liquidMaxYTranslate": 0.08
+      "liquidMaxYTranslate": 0.1
     },
     "groundStorageTransform": {
       "origin": {
@@ -43,7 +43,7 @@
   "liquidSelectable": true,
   "resistance": 1,
   "lightAbsorption": 0,
-  "maxStackSize": 8,
+  "maxStackSize": 4,
   "textures": {
     "sides": { "base": "game:block/henbox/sides" },
     "wood": { "base": "game:block/wood/planks/generic" }

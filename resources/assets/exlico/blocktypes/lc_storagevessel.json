@@ -63,7 +63,7 @@
   "liquidSelectable": true,
   "resistance": 0.8,
   "lightAbsorption": 0,
-  "maxStackSize": 4,
+  "maxStackSize": 1,
   "textures": {
     "ceramic": { "base": "game:block/clay/ceramic" },
     "top": { "base": "game:block/clay/vessel/top/{type}" },
