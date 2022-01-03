@@ -2,6 +2,11 @@
 	"exlico:block-lc_crock": "Crock (Liquid container)",
 	"exlico:block-lc_crucible": "Crucible (Liquid container)",
 	"exlico:block-lc_pot": "Cooking pot (Liquid container)",
+	"exlico:block-lc_anvilmold": "Anvil mold (Liquid container)",
+	"exlico:block-lc_henbox": "Henbox (Liquid container)",
+	"exlico:block-lc_pan": "Wooden pan (Liquid container)",
+	"exlico:block-lc_troughsmall": "Small trough (Liquid container)",
+	"exlico:block-lc_troughlarge": "Large trough (Liquid container)",
 
 	"exlico:block-lc_flowerpot-amber": "Flowerpot (Amber) (Liquid container)",
 	"exlico:block-lc_flowerpot-boneash": "Flowerpot (Bone ash) (Liquid container)",
@@ -53,6 +58,11 @@
 	"exlico:blockdesc-lc_planter-*": "Holds up to <font color='#80ffff'>25 liters</font> of any liquid.",
 	"exlico:blockdesc-lc_pot": "Holds up to <font color='#80ffff'>10 liters</font> of any liquid.",
 	"exlico:blockdesc-lc_storagevessel-*": "Holds up to <font color='#80ffff'>50 liters</font> of any liquid.",
+	"exlico:blockdesc-lc_anvilmold": "Holds up to <font color='#80ffff'>30 liters</font> of any liquid.",
+	"exlico:blockdesc-lc_henbox": "Holds up to <font color='#80ffff'>8 liters</font> of any liquid.",
+	"exlico:blockdesc-lc_pan": "Holds up to <font color='#80ffff'>8 liters</font> of any liquid.",
+	"exlico:blockdesc-lc_troughsmall": "Holds up to <font color='#80ffff'>16 liters</font> of any liquid.",
+	"exlico:blockdesc-lc_troughlarge": "Holds up to <font color='#80ffff'>40 liters</font> of any liquid.",
 
   "game:tabname-exlico": "Expanded Liquid Containers"
 }

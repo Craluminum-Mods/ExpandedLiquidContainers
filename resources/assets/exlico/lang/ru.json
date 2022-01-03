@@ -2,6 +2,11 @@
 	"exlico:block-lc_crock": "Глиняный горшок для хранения жидкости",
 	"exlico:block-lc_crucible": "Тигель для хранения жидкости",
 	"exlico:block-lc_pot": "Котелок для хранения жидкости",
+	"exlico:block-lc_anvilmold": "Форма для наковальни для хранения жидкости",
+	"exlico:block-lc_henbox": "Курятник для хранения жидкости",
+	"exlico:block-lc_pan": "Деревянный лоток для хранения жидкости",
+	"exlico:block-lc_troughsmall": "Малое корыто для хранения жидкости",
+	"exlico:block-lc_troughlarge": "Большое корыто для хранения жидкости",
 
 	"exlico:block-lc_flowerpot-amber": "Цветочный горшок для хранения жидкости (Янтарный)",
 	"exlico:block-lc_flowerpot-boneash": "Цветочный горшок для хранения жидкости (Костный пепел)",
@@ -53,6 +58,11 @@
 	"exlico:blockdesc-lc_planter-*": "Вмещает до <font color='#80ffff'>25 литров</font> любой жидкости.",
 	"exlico:blockdesc-lc_pot": "Вмещает до <font color='#80ffff'>10 литров</font> любой жидкости.",
 	"exlico:blockdesc-lc_storagevessel-*": "Вмещает до <font color='#80ffff'>50 литров</font> любой жидкости.",
+	"exlico:blockdesc-lc_anvilmold": "Вмещает до <font color='#80ffff'>30 литров</font> любой жидкости.",
+	"exlico:blockdesc-lc_henbox": "Вмещает до <font color='#80ffff'>8 литров</font> любой жидкости.",
+	"exlico:blockdesc-lc_pan": "Вмещает до <font color='#80ffff'>8 литров</font> любой жидкости.",
+	"exlico:blockdesc-lc_troughsmall": "Вмещает до <font color='#80ffff'>16 литров</font> любой жидкости.",
+	"exlico:blockdesc-lc_troughlarge": "Вмещает до <font color='#80ffff'>40 литров</font> любой жидкости.",
 
   "game:tabname-exlico": "Expanded Liquid Containers"
 }

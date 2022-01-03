@@ -2,6 +2,11 @@
 	"exlico:block-lc_crock": "Горщик для зберігання рідини",
 	"exlico:block-lc_crucible": "Тигель для зберігання рідини",
 	"exlico:block-lc_pot": "Казанок для зберігання рідини",
+	"exlico:block-lc_anvilmold": "Форма для ковадла для зберігання рідини",
+	"exlico:block-lc_henbox": "Курник для зберігання рідини",
+	"exlico:block-lc_pan": "Дерев'яний лоток для зберігання рідини",
+	"exlico:block-lc_troughsmall": "Невелике корито для зберігання рідини",
+	"exlico:block-lc_troughlarge": "Велике корито для зберігання рідини",
 
 	"exlico:block-lc_flowerpot-amber": "Квітковий горщик для зберігання рідини (Бурштин)",
 	"exlico:block-lc_flowerpot-boneash": "Квітковий горщик для зберігання рідини (Кістяний пил)",
@@ -53,6 +58,11 @@
 	"exlico:blockdesc-lc_planter-*": "Вміщує до <font color='#80ffff'>25 літрів</font> будь-якої рідини.",
 	"exlico:blockdesc-lc_pot": "Вміщує до <font color='#80ffff'>10 літрів</font> будь-якої рідини.",
 	"exlico:blockdesc-lc_storagevessel-*": "Вміщує до <font color='#80ffff'>50 літрів</font> будь-якої рідини.",
+	"exlico:blockdesc-lc_anvilmold": "Вміщує до <font color='#80ffff'>30 літрів</font> будь-якої рідини.",
+	"exlico:blockdesc-lc_henbox": "Вміщує до <font color='#80ffff'>8 літрів</font> будь-якої рідини.",
+	"exlico:blockdesc-lc_pan": "Вміщує до <font color='#80ffff'>8 літрів</font> будь-якої рідини.",
+	"exlico:blockdesc-lc_troughsmall": "Вміщує до <font color='#80ffff'>16 літрів</font> будь-якої рідини.",
+	"exlico:blockdesc-lc_troughlarge": "Вміщує до <font color='#80ffff'>40 літрів</font> будь-якої рідини.",
 
 	"game:tabname-exlico": "Expanded Liquid Containers"
 }
