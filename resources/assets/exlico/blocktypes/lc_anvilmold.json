@@ -1,0 +1,76 @@
+{
+  "code": "lc_anvilmold",
+  "class": "BlockLiquidContainerTopOpened",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0.0625,
+          "y1": 0,
+          "z1": 0.0625,
+          "x2": 0.9375,
+          "y2": 0.6875,
+          "z2": 0.9375
+        }
+      }
+    },
+    { "name": "Unplaceable" },
+    { "name": "RightClickPickup" }
+  ],
+  "attributes": {
+    "liquidContainerProps": {
+      "capacityLitres": 30,
+      "transferSizeLitres": 1,
+      "emptyShapeLoc": "shapes/anvilmold-empty-ground",
+      "opaqueContentShapeLoc": "shapes/anvilmold-contents",
+      "liquidContentShapeLoc": "shapes/anvilmold-liquidcontents",
+      "liquidMaxYTranslate": 0.45
+    }
+  },
+  "shape": { "base": "anvilmold-empty-ground" },
+  "blockmaterial": "Ceramic",
+  "creativeInventory": { "exlico": ["*"] },
+  "liquidSelectable": true,
+  "resistance": 1.5,
+  "lightAbsorption": 0,
+  "maxStackSize": 8,
+  "textures": {
+    "ceramic": { "base": "game:block/clay/ceramic" }
+  },
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
+  "collisionSelectionBox": {
+    "x1": 0.0625,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.9375,
+    "y2": 0.6875,
+    "z2": 0.9375
+  },
+  "heldTpIdleAnimation": "holdbothhands",
+  "heldTpUseAnimation": "twohandplaceblock",
+  "guiTransform": {
+    "translation": { "x": 0, "y": 3, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+    "scale": 1.33
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.97, "y": -0.1, "z": -0.65 },
+    "rotation": { "x": -51, "y": 23, "z": -114 },
+    "origin": { "x": 0.5, "y": 0.125, "z": 0.5 },
+    "scale": 0.56
+  },
+  "fpHandTransform": {
+    "translation": { "x": -0.3, "y": 0, "z": 0.5 },
+    "rotation": { "x": 16, "y": -50, "z": 1 },
+    "origin": { "x": 0.5, "y": 0.125, "z": 0.5 }
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": -45, "z": 0 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 2.2
+  }
+}

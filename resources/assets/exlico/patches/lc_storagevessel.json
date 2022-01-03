@@ -10,7 +10,6 @@
     "op": "replace",
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_storagevessel.json",
-    "value": 50,
     "condition": { "when": "lcStorageVesselLitres", "useValue": true }
   },
   {

@@ -1,0 +1,84 @@
+{
+  "code": "lc_pan",
+  "class": "BlockLiquidContainerTopOpened",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.137,
+          "z2": 1
+        }
+      }
+    },
+    { "name": "Unplaceable" },
+    { "name": "RightClickPickup" }
+  ],
+  "attributes": {
+    "liquidContainerProps": {
+      "capacityLitres": 8,
+      "transferSizeLitres": 1,
+      "emptyShapeLoc": "shapes/pan-empty-ground",
+      "opaqueContentShapeLoc": "shapes/pan-contents",
+      "liquidContentShapeLoc": "shapes/pan-liquidcontents",
+      "liquidMaxYTranslate": 0.1
+    },
+    "groundStorageTransform": {
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.8
+    }
+  },
+  "shape": { "base": "pan-empty-ground" },
+  "blockmaterial": "Wood",
+  "creativeInventory": { "exlico": ["*"] },
+  "liquidSelectable": true,
+  "resistance": 1,
+  "lightAbsorption": 0,
+  "maxStackSize": 1,
+  "sideopaque": { "all": false },
+  "sidesolid": { "all": false },
+  "emitSideAO": { "all": false },
+  "collisionSelectionBox": {
+    "x1": 0.125,
+    "y1": 0,
+    "z1": 0.125,
+    "x2": 0.875,
+    "y2": 0.1875,
+    "z2": 0.875
+  },
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "heldTpUseAnimation": "twohandplaceblock",
+  "fpHandTransform": {
+    "translation": { "x": 0.3, "y": 0, "z": 0 },
+    "rotation": { "x": 15, "y": 15, "z": 0 },
+    "scale": 2
+  },
+  "guiTransform": {
+    "rotate": true,
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": -25, "y": 22, "z": 0 },
+    "origin": { "x": 0.53, "y": 0.21, "z": 0.5 },
+    "scale": 1.76
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 18, "z": 0 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 4
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.58, "y": 0, "z": -0.34 },
+    "rotation": { "x": 0, "y": 18, "z": -74 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 0.8
+  }
+}

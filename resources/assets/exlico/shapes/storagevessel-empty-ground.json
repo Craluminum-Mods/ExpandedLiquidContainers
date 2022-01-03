@@ -1,14 +1,4 @@
 {
-	"editor": {
-		"allAngles": false,
-		"entityTextureMode": false
-	},
-	"textureWidth": 16,
-	"textureHeight": 16,
-	"textureSizes": {
-	},
-	"textures": {
-	},
 	"elements": [
 		{
 			"name": "bottom",
@@ -19,7 +9,7 @@
 				"east": { "texture": "#sides", "uv": [ 5.0, 14.0, 15.0, 16.0 ], "autoUv": false, "snapUv": false },
 				"south": { "texture": "#sides", "uv": [ 2.0, 14.0, 12.0, 16.0 ], "autoUv": false, "snapUv": false },
 				"west": { "texture": "#sides", "uv": [ 6.0, 14.0, 16.0, 16.0 ], "autoUv": false, "snapUv": false },
-				"up": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 10.0, 10.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 10.0, 10.0 ], "autoUv": false, "snapUv": false },
 				"down": { "texture": "#ceramic", "uv": [ 0.0, 6.0, 10.0, 16.0 ], "autoUv": false, "snapUv": false }
 			}
 		},
@@ -366,7 +356,7 @@
 						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
 						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 0.5 ], "enabled": false },
 						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
-						"up": { "texture": "#top", "uv": [ 3.0, 3.0, 13.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#top", "uv": [ 3.0, 3.0, 13.0, 4.0 ] },
 						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "enabled": false }
 					}
 				}

@@ -10,7 +10,6 @@
     "op": "replace",
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_planter.json",
-    "value": 25,
     "condition": { "when": "lcPlanterLitres", "useValue": true }
   },
   {

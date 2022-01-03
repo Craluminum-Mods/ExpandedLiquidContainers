@@ -10,7 +10,6 @@
     "op": "replace",
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_pot.json",
-    "value": 10,
     "condition": { "when": "lcCookingPotLitres", "useValue": true }
   },
   {

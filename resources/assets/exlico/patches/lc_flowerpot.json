@@ -10,7 +10,6 @@
     "op": "replace",
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_flowerpot.json",
-    "value": 10,
     "condition": { "when": "lcFlowerpotLitres", "useValue": true }
   },
   {

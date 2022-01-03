@@ -10,7 +10,6 @@
     "op": "replace",
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_crock.json",
-    "value": 8,
     "condition": { "when": "lcCrockLitres", "useValue": true }
   },
   {

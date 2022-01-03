@@ -1,24 +1,25 @@
 {
-	"code": "lc_crock",
-	"class": "BlockLiquidContainerTopOpened",
-	"behaviors": [
-		{"name": "GroundStorable",
-			"properties": {
-				"layout": "Quadrants",
-				"collisionBox": {
-					"x1": 0,
-					"y1": 0,
-					"z1": 0,
-					"x2": 1,
-					"y2": 0.281,
-					"z2": 1
-				}
-			}
-		},
-		{ "name": "Unplaceable" },
-		{"name": "RightClickPickup" }
+  "code": "lc_crock",
+  "class": "BlockLiquidContainerTopOpened",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.281,
+          "z2": 1
+        }
+      }
+    },
+    { "name": "Unplaceable" },
+    { "name": "RightClickPickup" }
   ],
-	"attributes": {
+  "attributes": {
     "liquidContainerProps": {
       "capacityLitres": 8,
       "transferSizeLitres": 1,
@@ -27,40 +28,44 @@
       "liquidContentShapeLoc": "shapes/crock-liquidcontents",
       "liquidMaxYTranslate": 0.21875
     }
-	},
-	"shape": { "base": "crock-empty-ground" },
-	"doNotRenderAtLod2": true,
-	"blockmaterial": "Ceramic",
-	"creativeInventory": { "exlico": ["*"] },
-	"replaceable": 400,
-	"liquidSelectable": true,
-	"resistance": 1.5,
-	"lightAbsorption": 1,
-	"maxStackSize": 8,
-	"textures": {
+  },
+  "shape": { "base": "crock-empty-ground" },
+  "blockmaterial": "Ceramic",
+  "creativeInventory": { "exlico": ["*"] },
+  "liquidSelectable": true,
+  "resistance": 1.5,
+  "lightAbsorption": 1,
+  "maxStackSize": 8,
+  "textures": {
     "ceramic": { "base": "game:block/clay/crock/ceramic" }
-	},
-	"sidesolid": { "all": false },
-	"sideopaque": { "all": false },
-	"collisionbox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.3125, "z2": 0.75 },
-	"selectionbox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.3125, "z2": 0.75 },
-	"guiTransform": {
-		"rotation": { "x": -22.6, "y": -125, "z": 0 },
-		"origin": { "x": 0.5, "y": 0.18, "z": 0.5 },
-		"scale": 3.09
-	},
-	"groundTransform": {
-		"scale": 3
-	},
-	"fpHandTransform": {
-		"translation": { "x": 0, "y": 0, "z": 0.5 },
-		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-		"scale": 2
-	},
-	"tpHandTransform": {
-		"translation": { "x": -0.56, "y": -0.03, "z": -0.52 },
-		"rotation": { "x": -139, "y": -21, "z": -118 },
-		"origin": { "x": 0.5, "y": 0.01, "z": 0.5 },
-		"scale": 0.81
-	}
+  },
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
+  "collisionSelectionBox": {
+    "x1": 0.25,
+    "y1": 0,
+    "z1": 0.25,
+    "x2": 0.75,
+    "y2": 0.3125,
+    "z2": 0.75
+  },
+  "guiTransform": {
+    "rotation": { "x": -22.6, "y": -125, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.18, "z": 0.5 },
+    "scale": 3.09
+  },
+  "groundTransform": {
+    "scale": 3
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0.5 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 2
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.56, "y": -0.03, "z": -0.52 },
+    "rotation": { "x": -139, "y": -21, "z": -118 },
+    "origin": { "x": 0.5, "y": 0.01, "z": 0.5 },
+    "scale": 0.81
+  }
 }

@@ -10,7 +10,6 @@
     "op": "replace",
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_crucible.json",
-    "value": 8,
     "condition": { "when": "lcCrucibleLitres", "useValue": true }
   },
   {

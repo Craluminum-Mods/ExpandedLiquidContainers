@@ -1,24 +1,25 @@
 {
-	"code": "lc_planter",
-	"class": "BlockLiquidContainerTopOpened",
-	"behaviors": [
-		{"name": "GroundStorable",
-			"properties": {
-				"layout": "SingleCenter",
-				"collisionBox": {
-					"x1": 0.125,
-					"y1": 0,
-					"z1": 0.125,
-					"x2": 0.875,
-					"y2": 0.5625,
-					"z2": 0.875
-				}
-			}
-		},
-		{ "name": "Unplaceable" },
-		{"name": "RightClickPickup" }
+  "code": "lc_planter",
+  "class": "BlockLiquidContainerTopOpened",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0.125,
+          "y1": 0,
+          "z1": 0.125,
+          "x2": 0.875,
+          "y2": 0.5625,
+          "z2": 0.875
+        }
+      }
+    },
+    { "name": "Unplaceable" },
+    { "name": "RightClickPickup" }
   ],
-	"attributes": {
+  "attributes": {
     "liquidContainerProps": {
       "capacityLitres": 25,
       "transferSizeLitres": 1,
@@ -27,42 +28,51 @@
       "liquidContentShapeLoc": "shapes/planter-liquidcontents",
       "liquidMaxYTranslate": 0.42
     }
-	},
-	"variantgroups": [{ "code": "type", "states": [
-    "amber",
-    "ashforest",
-    "burnt",
-    "copper",
-    "cthonic",
-    "earthern",
-    "loam",
-    "ochre",
-    "rime",
-    "seasalt",
-    "tenmoku",
-    "undergrowth"
-  ] }],
-	"shape": { "base": "planter-empty-ground" },
-	"doNotRenderAtLod2": true,
-	"blockmaterial": "Ceramic",
-	"creativeInventory": { "exlico": ["*"] },
-	"replaceable": 900,
-	"liquidSelectable": true,
-	"resistance": 1.5,
-	"lightAbsorption": 1,
-	"maxStackSize": 8,
-	"texturesByType": {
-		"*-burnt":{
-			"sides": {  "base": "game:block/clay/ceramic" },
-			"ceramic": {  "base": "game:block/clay/ceramic" }
-		},
-		"*":{
-			"sides": {  "base": "game:block/clay/planter/{type}" },
-			"ceramic": {  "base": "game:block/clay/ceramic" }
-		}
-	},
-	"sidesolid": { "all": false },
-	"sideopaque": { "all": false },
-	"collisionbox": { "x1": 0.125, "y1": 0, "z1": 0.125,"x2": 0.875, "y2": 0.5625, "z2": 0.875 },
-	"selectionbox": { "x1": 0.125, "y1": 0, "z1": 0.125,"x2": 0.875, "y2": 0.5625, "z2": 0.875 }
+  },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [
+        "amber",
+        "ashforest",
+        "burnt",
+        "copper",
+        "cthonic",
+        "earthern",
+        "loam",
+        "ochre",
+        "rime",
+        "seasalt",
+        "tenmoku",
+        "undergrowth"
+      ]
+    }
+  ],
+  "shape": { "base": "planter-empty-ground" },
+  "blockmaterial": "Ceramic",
+  "creativeInventory": { "exlico": ["*"] },
+  "liquidSelectable": true,
+  "resistance": 1.5,
+  "lightAbsorption": 1,
+  "maxStackSize": 8,
+  "texturesByType": {
+    "*-burnt": {
+      "sides": { "base": "game:block/clay/ceramic" },
+      "ceramic": { "base": "game:block/clay/ceramic" }
+    },
+    "*": {
+      "sides": { "base": "game:block/clay/planter/{type}" },
+      "ceramic": { "base": "game:block/clay/ceramic" }
+    }
+  },
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
+  "collisionSelectionBox": {
+    "x1": 0.125,
+    "y1": 0,
+    "z1": 0.125,
+    "x2": 0.875,
+    "y2": 0.5625,
+    "z2": 0.875
+  }
 }

@@ -1,24 +1,25 @@
 {
-	"code": "lc_flowerpot",
-	"class": "BlockLiquidContainerTopOpened",
-	"behaviors": [
-		{"name": "GroundStorable",
-			"properties": {
-				"layout": "Quadrants",
-				"collisionBox": {
-					"x1": 0,
-					"y1": 0,
-					"z1": 0,
-					"x2": 1,
-					"y2": 0.4375,
-					"z2": 1
-				}
-			}
-		},
-		{ "name": "Unplaceable" },
-		{"name": "RightClickPickup" }
+  "code": "lc_flowerpot",
+  "class": "BlockLiquidContainerTopOpened",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.4375,
+          "z2": 1
+        }
+      }
+    },
+    { "name": "Unplaceable" },
+    { "name": "RightClickPickup" }
   ],
-	"attributes": {
+  "attributes": {
     "liquidContainerProps": {
       "capacityLitres": 10,
       "transferSizeLitres": 1,
@@ -27,44 +28,53 @@
       "liquidContentShapeLoc": "shapes/flowerpot-liquidcontents",
       "liquidMaxYTranslate": 0.345
     }
-	},
-	"variantgroups": [{ "code": "type", "states": [
-    "amber",
-    "boneash",
-    "burnt",
-    "celadon",
-    "copper",
-    "earthern",
-    "moss",
-    "ochre",
-    "rutile",
-    "seasalt",
-    "tenmoku"
-  ] }],
-	"shape": { "base": "flowerpot-empty-ground" },
-	"doNotRenderAtLod2": true,
-	"blockmaterial": "Ceramic",
-	"creativeInventory": { "exlico": ["*"] },
-	"replaceable": 900,
-	"liquidSelectable": true,
-	"resistance": 1.5,
-	"lightAbsorption": 1,
-	"maxStackSize": 8,
-	"textures": {
-		"sides": {  "base": "game:block/clay/flowerpot/sides/{type}" },
-		"topbottom": {  "base": "game:block/clay/flowerpot/topbottom/{type}" }
-	},
-	"sidesolid": { "all": false },
-	"sideopaque": { "all": false },
-	"collisionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.4375, "z2": 0.6875 },
-	"selectionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.4375, "z2": 0.6875 },
-	"tpHandTransform": {
-		"translation": { "x": -1.5, "y": -0.9, "z": -1 },
-		"rotation": { "x": -78, "y": 32, "z": -95 },
-		"scale": 0.45
-	},
-	"guiTransform": {
-		"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
-		"scale": 1.5
-	}
+  },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [
+        "amber",
+        "boneash",
+        "burnt",
+        "celadon",
+        "copper",
+        "earthern",
+        "moss",
+        "ochre",
+        "rutile",
+        "seasalt",
+        "tenmoku"
+      ]
+    }
+  ],
+  "shape": { "base": "flowerpot-empty-ground" },
+  "blockmaterial": "Ceramic",
+  "creativeInventory": { "exlico": ["*"] },
+  "liquidSelectable": true,
+  "resistance": 1.5,
+  "lightAbsorption": 1,
+  "maxStackSize": 8,
+  "textures": {
+    "sides": { "base": "game:block/clay/flowerpot/sides/{type}" },
+    "topbottom": { "base": "game:block/clay/flowerpot/topbottom/{type}" }
+  },
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
+  "collisionSelectionBox": {
+    "x1": 0.3125,
+    "y1": 0,
+    "z1": 0.3125,
+    "x2": 0.6875,
+    "y2": 0.4375,
+    "z2": 0.6875
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.5, "y": -0.9, "z": -1 },
+    "rotation": { "x": -78, "y": 32, "z": -95 },
+    "scale": 0.45
+  },
+  "guiTransform": {
+    "origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+    "scale": 1.5
+  }
 }
