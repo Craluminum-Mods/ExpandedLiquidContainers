@@ -66,13 +66,5 @@
     }
   },
   "sidesolid": { "all": false },
-  "sideopaque": { "all": false },
-  "collisionSelectionBox": {
-    "x1": 0.125,
-    "y1": 0,
-    "z1": 0.125,
-    "x2": 0.875,
-    "y2": 0.5625,
-    "z2": 0.875
-  }
+  "sideopaque": { "all": false }
 }

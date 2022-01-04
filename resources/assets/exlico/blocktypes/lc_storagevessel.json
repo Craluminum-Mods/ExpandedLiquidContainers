@@ -19,7 +19,6 @@
     { "name": "Unplaceable" },
     { "name": "RightClickPickup" }
   ],
-  "entityBehaviors": [{ "name": "Animatable" }],
   "attributes": {
     "liquidContainerProps": {
       "capacityLitres": 50,
@@ -58,8 +57,6 @@
   "shape": { "base": "storagevessel-empty-ground" },
   "blockmaterial": "Ceramic",
   "creativeInventory": { "exlico": ["*"] },
-  "openSound": "game:sounds/block/vesselopen",
-  "closeSound": "game:sounds/block/vesselclose",
   "liquidSelectable": true,
   "resistance": 0.8,
   "lightAbsorption": 0,
@@ -72,14 +69,6 @@
   },
   "sidesolid": { "all": false },
   "sideopaque": { "all": false },
-  "collisionSelectionBox": {
-    "x1": 0.125,
-    "y1": 0,
-    "z1": 0.125,
-    "x2": 0.875,
-    "y2": 1,
-    "z2": 0.875
-  },
   "heldTpIdleAnimation": "holdunderarm",
   "tpHandTransform": {
     "translation": { "x": -1, "y": -0.5, "z": -0.5 },

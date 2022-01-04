@@ -5,7 +5,7 @@
       "C": {
         "type": "block",
         "code": "game:storagevessel-*",
-        "name": "type",
+        "name": "variant",
         "allowedVariants": [
           "ashforest",
           "beehive",
@@ -25,13 +25,14 @@
           "springflowers",
           "undergrowth",
           "volcanic"
-        ]
+        ],
+        "attributes": { "type": "normal" }
       }
     },
     "width": 1,
     "height": 1,
     "shapeless": true,
-    "output": { "type": "block", "code": "lc_storagevessel-{type}" }
+    "output": { "type": "block", "code": "lc_storagevessel-{variant}" }
   },
   {
     "ingredientPattern": "C",
@@ -39,7 +40,7 @@
       "C": {
         "type": "block",
         "code": "lc_storagevessel-*",
-        "name": "type",
+        "name": "variant",
         "allowedVariants": [
           "ashforest",
           "beehive",
@@ -65,6 +66,10 @@
     "width": 1,
     "height": 1,
     "shapeless": true,
-    "output": { "type": "block", "code": "game:storagevessel-{type}" }
+    "output": {
+      "type": "block",
+      "code": "game:storagevessel-{variant}",
+      "attributes": { "type": "normal" }
+    }
   }
 ]

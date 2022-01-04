@@ -1,0 +1,50 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbook",
+    "file": "blocktypes/lc_chest.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcChestEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/chest-normal.json",
+    "value": false,
+    "condition": { "when": "lcChestEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/chest-normal.json",
+    "value": false,
+    "condition": { "when": "lcChestEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/chest-labeled.json",
+    "value": false,
+    "condition": { "when": "lcChestEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/chest-labeled.json",
+    "value": false,
+    "condition": { "when": "lcChestEnabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitres",
+    "file": "blocktypes/lc_chest.json",
+    "condition": { "when": "lcChestLitres", "useValue": true }
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "blocktypes/lc_chest.json",
+    "value": { "name": "MilkingContainer" },
+    "condition": { "when": "lcChestMilk", "isValue": "true" }
+  }
+]

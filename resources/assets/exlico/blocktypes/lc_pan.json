@@ -47,14 +47,6 @@
   "sideopaque": { "all": false },
   "sidesolid": { "all": false },
   "emitSideAO": { "all": false },
-  "collisionSelectionBox": {
-    "x1": 0.125,
-    "y1": 0,
-    "z1": 0.125,
-    "x2": 0.875,
-    "y2": 0.1875,
-    "z2": 0.875
-  },
   "heldTpIdleAnimation": "holdbothhandslarge",
   "heldTpUseAnimation": "twohandplaceblock",
   "fpHandTransform": {

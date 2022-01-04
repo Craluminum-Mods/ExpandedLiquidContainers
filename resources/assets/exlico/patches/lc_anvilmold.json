@@ -9,14 +9,14 @@
   {
     "op": "add",
     "path": "/0/enabled",
-    "file": "recipes/grid/converting/anvilmold.json",
+    "file": "recipes/grid/converting/toolmold/anvilmold.json",
     "value": false,
     "condition": { "when": "lcAnvilMoldEnabled", "isValue": "false" }
   },
   {
     "op": "add",
     "path": "/1/enabled",
-    "file": "recipes/grid/converting/anvilmold.json",
+    "file": "recipes/grid/converting/toolmold/anvilmold.json",
     "value": false,
     "condition": { "when": "lcAnvilMoldEnabled", "isValue": "false" }
   },

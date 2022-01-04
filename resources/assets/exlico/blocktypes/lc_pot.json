@@ -41,14 +41,6 @@
   },
   "sidesolid": { "all": false },
   "sideopaque": { "all": false },
-  "collisionSelectionBox": {
-    "x1": 0.28,
-    "y1": 0,
-    "z1": 0.28,
-    "x2": 0.72,
-    "y2": 0.35,
-    "z2": 0.72
-  },
   "guiTransform": {
     "origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
     "scale": 2

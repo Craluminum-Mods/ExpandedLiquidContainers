@@ -58,14 +58,6 @@
   "maxStackSize": 1,
   "sidesolid": { "all": false },
   "sideopaque": { "all": false },
-  "collisionSelectionBox": {
-    "x1": 0.25,
-    "y1": 0,
-    "z1": 0.0625,
-    "x2": 0.75,
-    "y2": 0.25,
-    "z2": 0.9375
-  },
   "heldTpIdleAnimation": "holdbothhandslarge",
   "heldTpUseAnimation": "twohandplaceblock",
   "guiTransform": {
