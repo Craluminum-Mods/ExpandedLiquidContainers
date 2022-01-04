@@ -1,10 +1,24 @@
 [
   {
     "op": "add",
-    "path": "/enabled",
+    "path": "/attributes/handbook",
     "file": "blocktypes/lc_planter.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcPlanterEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/clayplanter.json",
     "value": false,
-    "condition": {"when": "lcPlanterEnabled", "isValue": "false"}
+    "condition": { "when": "lcPlanterEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/clayplanter.json",
+    "value": false,
+    "condition": { "when": "lcPlanterEnabled", "isValue": "false" }
   },
   {
     "op": "replace",

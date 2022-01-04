@@ -1,0 +1,36 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbook",
+    "file": "blocktypes/lc_anvilmold.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcAnvilMoldEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/anvilmold.json",
+    "value": false,
+    "condition": { "when": "lcAnvilMoldEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/anvilmold.json",
+    "value": false,
+    "condition": { "when": "lcAnvilMoldEnabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitres",
+    "file": "blocktypes/lc_anvilmold.json",
+    "condition": { "when": "lcAnvilMoldLitres", "useValue": true }
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "blocktypes/lc_anvilmold.json",
+    "value": { "name": "MilkingContainer" },
+    "condition": { "when": "lcAnvilMoldMilk", "isValue": "true" }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbook",
+    "file": "blocktypes/lc_troughlarge.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcTroughLargeEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/troughlarge.json",
+    "value": false,
+    "condition": { "when": "lcTroughLargeEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/troughlarge.json",
+    "value": false,
+    "condition": { "when": "lcTroughLargeEnabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitres",
+    "file": "blocktypes/lc_troughlarge.json",
+    "condition": { "when": "lcTroughLargeLitres", "useValue": true }
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "blocktypes/lc_troughlarge.json",
+    "value": { "name": "MilkingContainer" },
+    "condition": { "when": "lcTroughLargeMilk", "isValue": "true" }
+  }
+]

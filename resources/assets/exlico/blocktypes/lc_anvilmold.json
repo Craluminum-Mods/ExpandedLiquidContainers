@@ -53,6 +53,7 @@
   "heldTpUseAnimation": "twohandplaceblock",
   "guiTransform": {
     "translation": { "x": 0, "y": 3, "z": 0 },
+    "rotation": { "x": -22.6, "y": 45, "z": 0 },
     "origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
     "scale": 1.33
   },

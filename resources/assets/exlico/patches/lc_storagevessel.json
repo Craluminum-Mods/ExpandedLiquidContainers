@@ -1,10 +1,24 @@
 [
   {
     "op": "add",
-    "path": "/enabled",
+    "path": "/attributes/handbook",
     "file": "blocktypes/lc_storagevessel.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcStorageVesselEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/storagevessel.json",
     "value": false,
-    "condition": {"when": "lcStorageVesselEenabled", "isValue": "false"}
+    "condition": { "when": "lcStorageVesselEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/storagevessel.json",
+    "value": false,
+    "condition": { "when": "lcStorageVesselEnabled", "isValue": "false" }
   },
   {
     "op": "replace",

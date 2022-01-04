@@ -19,6 +19,11 @@ namespace ExpandedLiquidContainers.List
 		public Part Flowerpot { get; set; } = new Part(true, false, 10);
 		public Part Planter { get; set; } = new Part(true, false, 25);
 		public Part StorageVessel { get; set; } = new Part(true, false, 50);
+		public Part AnvilMold { get; set; } = new Part(true, false, 30);
+		public Part Henbox { get; set; } = new Part(true, false, 8);
+		public Part WoodenPan { get; set; } = new Part(true, false, 8);
+		public Part TroughSmall { get; set; } = new Part(true, false, 16);
+		public Part TroughLarge { get; set; } = new Part(true, false, 40);
 
 		private static readonly PropertyInfo[] propertyInfos = typeof(ExpandedLiquidContainersConfig).GetProperties()
 			.Where(propertyInfo => propertyInfo.PropertyType == typeof(Part)).ToArray();

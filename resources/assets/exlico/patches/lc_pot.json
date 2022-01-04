@@ -1,10 +1,24 @@
 [
   {
     "op": "add",
-    "path": "/enabled",
+    "path": "/attributes/handbook",
     "file": "blocktypes/lc_pot.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcCookingPotEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/claypot.json",
     "value": false,
-    "condition": {"when": "lcCookingPotEnabled", "isValue": "false"}
+    "condition": { "when": "lcCookingPotEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/claypot.json",
+    "value": false,
+    "condition": { "when": "lcCookingPotEnabled", "isValue": "false" }
   },
   {
     "op": "replace",

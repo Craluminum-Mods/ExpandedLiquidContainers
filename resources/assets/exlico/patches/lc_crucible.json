@@ -1,10 +1,24 @@
 [
   {
     "op": "add",
-    "path": "/enabled",
+    "path": "/attributes/handbook",
     "file": "blocktypes/lc_crucible.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcCrucibleEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/crucible.json",
     "value": false,
-    "condition": {"when": "lcCrucibleEnabled", "isValue": "false"}
+    "condition": { "when": "lcCrucibleEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/crucible.json",
+    "value": false,
+    "condition": { "when": "lcCrucibleEnabled", "isValue": "false" }
   },
   {
     "op": "replace",

@@ -1,0 +1,36 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbook",
+    "file": "blocktypes/lc_henbox.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcHenboxEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/henbox.json",
+    "value": false,
+    "condition": { "when": "lcHenboxEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/henbox.json",
+    "value": false,
+    "condition": { "when": "lcHenboxEnabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitres",
+    "file": "blocktypes/lc_henbox.json",
+    "condition": { "when": "lcHenboxLitres", "useValue": true }
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "blocktypes/lc_henbox.json",
+    "value": { "name": "MilkingContainer" },
+    "condition": { "when": "lcHenboxMilk", "isValue": "true" }
+  }
+]
