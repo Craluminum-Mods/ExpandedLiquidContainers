@@ -23,9 +23,9 @@
     "liquidContainerProps": {
       "capacityLitres": 16,
       "transferSizeLitres": 1,
-      "emptyShapeLoc": "shapes/troughsmall-empty-ground",
-      "opaqueContentShapeLoc": "shapes/troughsmall-contents",
-      "liquidContentShapeLoc": "shapes/troughsmall-liquidcontents",
+      "emptyShapeLoc": "game:shapes/block/wood/trough/small/empty",
+      "opaqueContentShapeLoc": "shapes/wood/troughsmall-opaque",
+      "liquidContentShapeLoc": "shapes/wood/troughsmall-liquid",
       "liquidMaxYTranslate": 0.15
     },
     "groundStorageTransform": {
@@ -42,7 +42,7 @@
       "scale": 1
     }
   },
-  "shape": { "base": "troughsmall-empty-ground" },
+  "shape": { "base": "game:block/wood/trough/small/empty" },
   "textures": {
     "bottom-inside": { "base": "game:block/wood/trough/large/bottom-inside" },
     "outer-ring": { "base": "game:block/wood/trough/large/outer-ring" },
@@ -51,8 +51,6 @@
   "blockmaterial": "Wood",
   "creativeInventory": { "exlico": ["*"] },
   "liquidSelectable": true,
-  "resistance": 2,
-  "lightAbsorption": 0,
   "materialDensity": 600,
   "maxStackSize": 1,
   "sidesolid": { "all": false },

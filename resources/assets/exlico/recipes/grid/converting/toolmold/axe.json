@@ -1,0 +1,22 @@
+[
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": { "type": "block", "code": "game:toolmold-burned-axe" }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": { "type": "block", "code": "lc_toolmold-axe" }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": { "type": "block", "code": "lc_toolmold-axe" }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": { "type": "block", "code": "game:toolmold-burned-axe" }
+  }
+]

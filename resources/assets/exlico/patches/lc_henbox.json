@@ -25,12 +25,5 @@
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_henbox.json",
     "condition": { "when": "lcHenboxLitres", "useValue": true }
-  },
-  {
-    "op": "add",
-    "path": "/behaviors/-",
-    "file": "blocktypes/lc_henbox.json",
-    "value": { "name": "MilkingContainer" },
-    "condition": { "when": "lcHenboxMilk", "isValue": "true" }
   }
 ]

@@ -1,0 +1,29 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbookByType/*-ingot",
+    "file": "blocktypes/lc_toolmold.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcMoldIngotEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/toolmold/ingot.json",
+    "value": false,
+    "condition": { "when": "lcMoldIngotEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/toolmold/ingot.json",
+    "value": false,
+    "condition": { "when": "lcMoldIngotEnabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitresByType/*-ingot",
+    "file": "blocktypes/lc_toolmold.json",
+    "condition": { "when": "lcMoldIngotLitres", "useValue": true }
+  }
+]

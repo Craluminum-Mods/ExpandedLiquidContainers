@@ -1,0 +1,18 @@
+{
+	"elements": [
+		{
+			"name": "cube",
+			"from": [ 3.0, 0.0, 3.0 ], 
+			"to": [ 13.0, 1.0, 13.0 ], 
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 10.0 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 10.0, 10.0 ], "enabled": false }
+			}
+		}
+	]}

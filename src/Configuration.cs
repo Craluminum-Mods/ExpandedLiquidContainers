@@ -37,7 +37,6 @@ namespace ExpandedLiquidContainers
 			{
 				api.World.Config.SetBool($"lc{p.Key}Enabled", p.Value.Enabled);
 				api.World.Config.SetInt($"lc{p.Key}Litres", p.Value.CapacityLitres);
-				api.World.Config.SetBool($"lc{p.Key}Milk", p.Value.MilkingContainer);
 			}
 		}
 	}

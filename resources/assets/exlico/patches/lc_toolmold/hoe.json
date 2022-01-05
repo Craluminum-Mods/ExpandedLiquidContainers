@@ -1,0 +1,29 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbookByType/*-hoe",
+    "file": "blocktypes/lc_toolmold.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcMoldHoeEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/toolmold/hoe.json",
+    "value": false,
+    "condition": { "when": "lcMoldHoeEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/toolmold/hoe.json",
+    "value": false,
+    "condition": { "when": "lcMoldHoeEnabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitresByType/*-hoe",
+    "file": "blocktypes/lc_toolmold.json",
+    "condition": { "when": "lcMoldHoeLitres", "useValue": true }
+  }
+]

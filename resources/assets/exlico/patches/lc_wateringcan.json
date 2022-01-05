@@ -1,0 +1,29 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbook",
+    "file": "blocktypes/lc_wateringcan.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcWateringCanEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/wateringcan.json",
+    "value": false,
+    "condition": { "when": "lcWateringCanEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/wateringcan.json",
+    "value": false,
+    "condition": { "when": "lcWateringCanEnabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitres",
+    "file": "blocktypes/lc_wateringcan.json",
+    "condition": { "when": "lcWateringCanLitres", "useValue": true }
+  }
+]

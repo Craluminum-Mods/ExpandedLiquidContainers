@@ -1,0 +1,29 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbookByType/*-lamellae",
+    "file": "blocktypes/lc_toolmold.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcMoldLamellaeEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/toolmold/lamellae.json",
+    "value": false,
+    "condition": { "when": "lcMoldLamellaeEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/toolmold/lamellae.json",
+    "value": false,
+    "condition": { "when": "lcMoldLamellaeEnabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitresByType/*-lamellae",
+    "file": "blocktypes/lc_toolmold.json",
+    "condition": { "when": "lcMoldLamellaeLitres", "useValue": true }
+  }
+]

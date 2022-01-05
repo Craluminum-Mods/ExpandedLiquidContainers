@@ -1,0 +1,29 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/handbook/excludeByType/*-reed",
+    "file": "blocktypes/lc_stationarybasket.json",
+    "value": true,
+    "condition": { "when": "lcStationaryBasketEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/stationarybasket.json",
+    "value": false,
+    "condition": { "when": "lcStationaryBasketEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/stationarybasket.json",
+    "value": false,
+    "condition": { "when": "lcStationaryBasketEnabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitres",
+    "file": "blocktypes/lc_stationarybasket.json",
+    "condition": { "when": "lcStationaryBasketLitres", "useValue": true }
+  }
+]

@@ -23,19 +23,19 @@
     "liquidContainerProps": {
       "capacityLitres": 10,
       "transferSizeLitres": 1,
-      "emptyShapeLoc": "shapes/pot-empty-ground",
-      "opaqueContentShapeLoc": "shapes/pot-contents",
-      "liquidContentShapeLoc": "shapes/pot-liquidcontents",
+      "emptyShapeLoc": "game:shapes/block/clay/pot-opened-empty",
+      "opaqueContentShapeLoc": "shapes/clay/pot-opaque",
+      "liquidContentShapeLoc": "shapes/clay/pot-liquid",
       "liquidMaxYTranslate": 0.25
     }
   },
-  "shape": { "base": "pot-empty-ground" },
+  "shape": { "base": "game:block/clay/pot-opened-empty" },
+  "heldTpIdleAnimation": "holdbothhands",
+  "heldTpUseAnimation": "twohandplaceblock",
   "blockmaterial": "Ceramic",
   "creativeInventory": { "exlico": ["*"] },
   "liquidSelectable": true,
-  "resistance": 1.5,
-  "lightAbsorption": 1,
-  "maxStackSize": 8,
+  "maxStackSize": 4,
   "textures": {
     "ceramic": { "base": "game:block/clay/pot-side" }
   },
@@ -53,8 +53,8 @@
     "scale": 2
   },
   "tpHandTransform": {
-    "translation": { "x": -0.67, "y": 0.06, "z": -0.5 },
-    "rotation": { "x": -52, "y": 20, "z": -110 },
+    "translation": { "x": -0.69, "y": 0.06, "z": -0.57 },
+    "rotation": { "x": -54, "y": 17, "z": -109 },
     "origin": { "x": 0.5, "y": 0, "z": 0.5 },
     "scale": 0.76
   }

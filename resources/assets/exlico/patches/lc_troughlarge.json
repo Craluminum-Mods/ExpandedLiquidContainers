@@ -25,12 +25,5 @@
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_troughlarge.json",
     "condition": { "when": "lcTroughLargeLitres", "useValue": true }
-  },
-  {
-    "op": "add",
-    "path": "/behaviors/-",
-    "file": "blocktypes/lc_troughlarge.json",
-    "value": { "name": "MilkingContainer" },
-    "condition": { "when": "lcTroughLargeMilk", "isValue": "true" }
   }
 ]

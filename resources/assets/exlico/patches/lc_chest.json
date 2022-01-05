@@ -39,12 +39,5 @@
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_chest.json",
     "condition": { "when": "lcChestLitres", "useValue": true }
-  },
-  {
-    "op": "add",
-    "path": "/behaviors/-",
-    "file": "blocktypes/lc_chest.json",
-    "value": { "name": "MilkingContainer" },
-    "condition": { "when": "lcChestMilk", "isValue": "true" }
   }
 ]

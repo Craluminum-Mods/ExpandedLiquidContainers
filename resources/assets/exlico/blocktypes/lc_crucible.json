@@ -23,22 +23,22 @@
     "liquidContainerProps": {
       "capacityLitres": 8,
       "transferSizeLitres": 1,
-      "emptyShapeLoc": "shapes/crucible-empty-ground",
-      "opaqueContentShapeLoc": "shapes/crucible-contents",
-      "liquidContentShapeLoc": "shapes/crucible-liquidcontents",
-      "liquidMaxYTranslate": 0.1875
+      "emptyShapeLoc": "game:shapes/block/clay/crucible",
+      "opaqueContentShapeLoc": "shapes/clay/crucible-opaque",
+      "liquidContentShapeLoc": "shapes/clay/crucible-liquid",
+      "liquidMaxYTranslate": 0.24
     }
   },
-  "shape": { "base": "crucible-empty-ground" },
+  "shape": { "base": "game:block/clay/crucible" },
   "blockmaterial": "Ceramic",
   "creativeInventory": { "exlico": ["*"] },
   "liquidSelectable": true,
-  "resistance": 2,
-  "lightAbsorption": 0,
   "maxStackSize": 4,
   "textures": {
     "ceramic": { "base": "game:block/clay/ceramic" }
   },
+  "heldTpIdleAnimation": "holdbothhands",
+  "heldTpUseAnimation": "twohandplaceblock",
   "sidesolid": { "all": false },
   "sideopaque": { "all": false },
   "guiTransform": {

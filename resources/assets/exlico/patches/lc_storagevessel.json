@@ -25,12 +25,5 @@
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_storagevessel.json",
     "condition": { "when": "lcStorageVesselLitres", "useValue": true }
-  },
-  {
-    "op": "add",
-    "path": "/behaviors/-",
-    "file": "blocktypes/lc_storagevessel.json",
-    "value": { "name": "MilkingContainer" },
-    "condition": { "when": "lcStorageVesselMilk", "isValue": "true" }
   }
 ]

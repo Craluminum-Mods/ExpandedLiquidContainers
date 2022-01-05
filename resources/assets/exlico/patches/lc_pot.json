@@ -25,12 +25,5 @@
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_pot.json",
     "condition": { "when": "lcCookingPotLitres", "useValue": true }
-  },
-  {
-    "op": "add",
-    "path": "/behaviors/-",
-    "file": "blocktypes/lc_pot.json",
-    "value": { "name": "MilkingContainer" },
-    "condition": { "when": "lcCookingPotMilk", "isValue": "true" }
   }
 ]

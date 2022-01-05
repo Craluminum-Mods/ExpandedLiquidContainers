@@ -25,12 +25,5 @@
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_planter.json",
     "condition": { "when": "lcPlanterLitres", "useValue": true }
-  },
-  {
-    "op": "add",
-    "path": "/behaviors/-",
-    "file": "blocktypes/lc_planter.json",
-    "value": { "name": "MilkingContainer" },
-    "condition": { "when": "lcPlanterMilk", "isValue": "true" }
   }
 ]

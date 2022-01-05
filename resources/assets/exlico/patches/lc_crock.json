@@ -25,12 +25,5 @@
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_crock.json",
     "condition": { "when": "lcCrockLitres", "useValue": true }
-  },
-  {
-    "op": "add",
-    "path": "/behaviors/-",
-    "file": "blocktypes/lc_crock.json",
-    "value": { "name": "MilkingContainer" },
-    "condition": { "when": "lcCrockMilk", "isValue": "true" }
   }
 ]

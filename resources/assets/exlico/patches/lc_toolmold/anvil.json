@@ -1,0 +1,29 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbookByType/*-anvil",
+    "file": "blocktypes/lc_toolmold.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcMoldAnvilEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/toolmold/anvil.json",
+    "value": false,
+    "condition": { "when": "lcMoldAnvilEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/toolmold/anvil.json",
+    "value": false,
+    "condition": { "when": "lcMoldAnvilEnabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitresByType/*-anvil",
+    "file": "blocktypes/lc_toolmold.json",
+    "condition": { "when": "lcMoldAnvilLitres", "useValue": true }
+  }
+]

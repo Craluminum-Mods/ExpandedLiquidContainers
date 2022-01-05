@@ -23,9 +23,9 @@
     "liquidContainerProps": {
       "capacityLitres": 10,
       "transferSizeLitres": 1,
-      "emptyShapeLoc": "shapes/flowerpot-empty-ground",
-      "opaqueContentShapeLoc": "shapes/flowerpot-contents",
-      "liquidContentShapeLoc": "shapes/flowerpot-liquidcontents",
+      "emptyShapeLoc": "game:shapes/block/clay/flowerpot/empty",
+      "opaqueContentShapeLoc": "shapes/clay/flowerpot-opaque",
+      "liquidContentShapeLoc": "shapes/clay/flowerpot-liquid",
       "liquidMaxYTranslate": 0.345
     }
   },
@@ -47,23 +47,23 @@
       ]
     }
   ],
-  "shape": { "base": "flowerpot-empty-ground" },
+  "shape": { "base": "game:block/clay/flowerpot/empty" },
   "blockmaterial": "Ceramic",
   "creativeInventory": { "exlico": ["*"] },
   "liquidSelectable": true,
-  "resistance": 1.5,
-  "lightAbsorption": 1,
-  "maxStackSize": 1,
+  "maxStackSize": 4,
   "textures": {
     "sides": { "base": "game:block/clay/flowerpot/sides/{type}" },
     "topbottom": { "base": "game:block/clay/flowerpot/topbottom/{type}" }
   },
+  "heldTpIdleAnimation": "holdbothhands",
+  "heldTpUseAnimation": "twohandplaceblock",
   "sidesolid": { "all": false },
   "sideopaque": { "all": false },
   "tpHandTransform": {
-    "translation": { "x": -1.5, "y": -0.9, "z": -1 },
-    "rotation": { "x": -78, "y": 32, "z": -95 },
-    "scale": 0.45
+    "translation": { "x": -1.26, "y": -0.62, "z": -0.39 },
+    "rotation": { "x": -54, "y": 17, "z": -110 },
+    "scale": 0.7
   },
   "guiTransform": {
     "origin": { "x": 0.5, "y": 0.3, "z": 0.5 },

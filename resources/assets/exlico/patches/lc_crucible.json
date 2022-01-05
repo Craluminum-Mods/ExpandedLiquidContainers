@@ -25,12 +25,5 @@
     "path": "/attributes/liquidContainerProps/capacityLitres",
     "file": "blocktypes/lc_crucible.json",
     "condition": { "when": "lcCrucibleLitres", "useValue": true }
-  },
-  {
-    "op": "add",
-    "path": "/behaviors/-",
-    "file": "blocktypes/lc_crucible.json",
-    "value": { "name": "MilkingContainer" },
-    "condition": { "when": "lcCrucibleMilk", "isValue": "true" }
   }
 ]

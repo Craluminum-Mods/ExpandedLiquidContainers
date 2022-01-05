@@ -1,0 +1,224 @@
+{
+  "code": "lc_toolmold",
+  "class": "BlockLiquidContainerTopOpened",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layoutByType": {
+          "*-ingot": "Quadrants",
+          "*": "SingleCenter"
+        },
+        "collisionBoxByType": {
+          "*-anvil": {
+            "x1": 0.125,
+            "y1": 0,
+            "z1": 0,
+            "x2": 0.875,
+            "y2": 0.6875,
+            "z2": 1
+          },
+          "*-helvehammer": {
+            "x1": 0.1875,
+            "y1": 0,
+            "z1": 0.219,
+            "x2": 0.8125,
+            "y2": 0.25,
+            "z2": 0.7815
+          },
+          "*-ingot": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1562,
+            "z2": 1
+          },
+          "*-bullets": {
+            "x1": 0.094,
+            "y1": 0,
+            "z1": 0.094,
+            "x2": 0.906,
+            "y2": 0.1875,
+            "z2": 0.906
+          },
+          "*": {
+            "x1": 0.0625,
+            "y1": 0,
+            "z1": 0.0625,
+            "x2": 0.9375,
+            "y2": 0.125,
+            "z2": 0.9375
+          }
+        }
+      }
+    },
+    { "name": "Unplaceable" },
+    { "name": "RightClickPickup" }
+  ],
+  "variantGroups": [
+    {
+      "code": "tooltype",
+      "states": [
+        "anvil",
+        "axe",
+        "bullets",
+        "hammer",
+        "helvehammer",
+        "hoe",
+        "ingot",
+        "lamellae",
+        "longblade",
+        "pickaxe",
+        "prospectingpick",
+        "shovel"
+      ]
+    }
+  ],
+  "attributes": {
+    "handbookByType": {},
+    "liquidContainerProps": {
+      "capacityLitresByType": {
+        "*-anvil": 36,
+        "*-axe": 8,
+        "*-bullets": 8,
+        "*-hammer": 8,
+        "*-helvehammer": 16,
+        "*-hoe": 8,
+        "*-ingot": 8,
+        "*-lamellae": 8,
+        "*-longblade": 8,
+        "*-pickaxe": 8,
+        "*-prospectingpick": 8,
+        "*-shovel": 8
+      },
+      "transferSizeLitres": 1,
+      "emptyShapeLocByType": {
+        "*-ingot": "shapes/clay/toolmold/ingot",
+        "*": "game:shapes/block/clay/mold/{tooltype}"
+      },
+      "opaqueContentShapeLocByType": {
+        "*-anvil": "shapes/clay/toolmold/anvil-opaque",
+        "*-helvehammer": "shapes/clay/toolmold/helvehammer-opaque",
+        "*-ingot": "shapes/clay/toolmold/ingot-opaque",
+        "*-bullets": "shapes/clay/toolmold/bullets-opaque",
+        "*": "shapes/clay/toolmold/universal-opaque"
+      },
+      "liquidContentShapeLocByType": {
+        "*-anvil": "shapes/clay/toolmold/anvil-liquid",
+        "*-helvehammer": "shapes/clay/toolmold/helvehammer-liquid",
+        "*-ingot": "shapes/clay/toolmold/ingot-liquid",
+        "*-bullets": "shapes/clay/toolmold/bullets-liquid",
+        "*": "shapes/clay/toolmold/universal-liquid"
+      },
+      "liquidMaxYTranslateByType": {
+        "*-anvil": 0.5,
+        "*-helvehammer": 0.15,
+        "*-ingot": 0.1,
+        "*-bullets": 0.1,
+        "*": 0.05
+      }
+    },
+    "groundStorageTransformByType": {
+      "*-ingot": {
+        "rotation": { "x": 0, "y": 45, "z": 0 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 0.9
+      }
+    }
+  },
+  "shapeByType": {
+    "*-ingot": { "base": "clay/toolmold/ingot" },
+    "*": { "base": "game:block/clay/mold/{tooltype}" }
+  },
+  "blockmaterial": "Ceramic",
+  "creativeInventory": { "exlico": ["*"] },
+  "liquidSelectable": true,
+  "maxStackSizeByType": {
+    "@.*-(anvil|helvehammer)": 1,
+    "*-ingot": 4
+  },
+  "texturesByType": {
+    "*-ingot": {
+      "floor": { "base": "game:block/clay/ceramic-dark" },
+      "other": { "base": "game:block/clay/ceramic" }
+    }
+  },
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
+  "heldTpIdleAnimation": "holdbothhands",
+  "heldTpUseAnimation": "twohandplaceblock",
+  "guiTransformByType": {
+    "*-anvil": {
+      "translation": { "x": 0, "y": 3, "z": 0 },
+      "origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+      "scale": 1.33
+    },
+    "*-helvehammer": {
+      "origin": { "x": 0.5, "y": 0.18, "z": 0.5 },
+      "scale": 1.8
+    },
+    "*-ingot": {
+      "rotation": { "x": -22.5937, "y": -45.2968, "z": 0 },
+      "origin": { "x": 0.52, "y": 0.15, "z": 0.5299 },
+      "scale": 2
+    },
+    "*": {
+      "translation": { "x": 0, "y": 3, "z": 0 },
+      "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+      "scale": 1.33
+    }
+  },
+  "tpHandTransformByType": {
+    "@.*-(anvil|helvehammer)": {
+      "translation": { "x": -0.98, "y": -0.07, "z": -0.73 },
+      "rotation": { "x": -139, "y": -19, "z": -109 },
+      "origin": { "x": 0.5, "y": 0.125, "z": 0.5 },
+      "scale": 0.56
+    },
+    "*-ingot": {
+      "translation": { "x": -0.8, "y": 0, "z": -0.69 },
+      "rotation": { "x": -54, "y": 19, "z": -110 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.65
+    },
+    "*": {
+      "translation": { "x": -1.23, "y": -0.21, "z": -0.76 },
+      "rotation": { "x": -60, "y": 15, "z": -113 },
+      "origin": { "x": 0.5, "y": 0.125, "z": 0.5 },
+      "scale": 0.5
+    }
+  },
+  "fpHandTransformByType": {
+    "@.*-(anvil|helvehammer)": {
+      "translation": { "x": -0.3, "y": 0, "z": 0.5 },
+      "rotation": { "x": 16, "y": -50, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.125, "z": 0.5 }
+    },
+    "*-ingot": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 4, "y": -56, "z": -2 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 1.8
+    },
+    "*": {
+      "translation": { "x": -0.3, "y": 0, "z": 0.5 },
+      "rotation": { "x": 25, "y": -51, "z": 11 },
+      "origin": { "x": 0.5, "y": 0.125, "z": 0.5 }
+    }
+  },
+  "groundTransformByType": {
+    "*-ingot": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": -45, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 4
+    },
+    "*": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": -45, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 2.2
+    }
+  }
+}

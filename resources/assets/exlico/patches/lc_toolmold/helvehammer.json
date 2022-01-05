@@ -1,0 +1,29 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbookByType/*-helvehammer",
+    "file": "blocktypes/lc_toolmold.json",
+    "value": { "exclude": true },
+    "condition": { "when": "lcMoldHelveHammerEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/converting/toolmold/helvehammer.json",
+    "value": false,
+    "condition": { "when": "lcMoldHelveHammerEnabled", "isValue": "false" }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/converting/toolmold/helvehammer.json",
+    "value": false,
+    "condition": { "when": "lcMoldHelveHammerEnabled", "isValue": "false" }
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/liquidContainerProps/capacityLitresByType/*-helvehammer",
+    "file": "blocktypes/lc_toolmold.json",
+    "condition": { "when": "lcMoldHelveHammerLitres", "useValue": true }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": { "type": "block", "code": "game:toolmold-burned-hammer" }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": { "type": "block", "code": "lc_toolmold-hammer" }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": { "type": "block", "code": "lc_toolmold-hammer" }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": { "type": "block", "code": "game:toolmold-burned-hammer" }
+  }
+]

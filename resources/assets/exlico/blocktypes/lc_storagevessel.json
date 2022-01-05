@@ -23,9 +23,9 @@
     "liquidContainerProps": {
       "capacityLitres": 50,
       "transferSizeLitres": 1,
-      "emptyShapeLoc": "shapes/storagevessel-empty-ground",
-      "opaqueContentShapeLoc": "shapes/storagevessel-contents",
-      "liquidContentShapeLoc": "shapes/storagevessel-liquidcontents",
+      "emptyShapeLoc": "shapes/clay/storagevessel-empty-ground",
+      "opaqueContentShapeLoc": "shapes/clay/storagevessel-opaque",
+      "liquidContentShapeLoc": "shapes/clay/storagevessel-liquid",
       "liquidMaxYTranslate": 0.61224489795
     }
   },
@@ -54,12 +54,10 @@
       ]
     }
   ],
-  "shape": { "base": "storagevessel-empty-ground" },
+  "shape": { "base": "clay/storagevessel-empty-ground" },
   "blockmaterial": "Ceramic",
   "creativeInventory": { "exlico": ["*"] },
   "liquidSelectable": true,
-  "resistance": 0.8,
-  "lightAbsorption": 0,
   "maxStackSize": 1,
   "textures": {
     "ceramic": { "base": "game:block/clay/ceramic" },
@@ -69,10 +67,11 @@
   },
   "sidesolid": { "all": false },
   "sideopaque": { "all": false },
-  "heldTpIdleAnimation": "holdunderarm",
+  "heldTpIdleAnimation": "holdbothhands",
+  "heldTpUseAnimation": "twohandplaceblock",
   "tpHandTransform": {
-    "translation": { "x": -1, "y": -0.5, "z": -0.5 },
-    "rotation": { "x": 25, "y": -20, "z": -99 },
+    "translation": { "x": -1.3, "y": -0.9, "z": -0.7 },
+    "rotation": { "x": 38, "y": 20, "z": -74 },
     "scale": 0.56
   }
 }

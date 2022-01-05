@@ -23,22 +23,22 @@
     "liquidContainerProps": {
       "capacityLitres": 8,
       "transferSizeLitres": 1,
-      "emptyShapeLoc": "shapes/crock-empty-ground",
-      "opaqueContentShapeLoc": "shapes/crock-contents",
-      "liquidContentShapeLoc": "shapes/crock-liquidcontents",
+      "emptyShapeLoc": "shapes/clay/crock-empty-ground",
+      "opaqueContentShapeLoc": "shapes/clay/crock-opaque",
+      "liquidContentShapeLoc": "shapes/clay/crock-liquid",
       "liquidMaxYTranslate": 0.21875
     }
   },
-  "shape": { "base": "crock-empty-ground" },
+  "shape": { "base": "clay/crock-empty-ground" },
   "blockmaterial": "Ceramic",
   "creativeInventory": { "exlico": ["*"] },
   "liquidSelectable": true,
-  "resistance": 1.5,
-  "lightAbsorption": 1,
-  "maxStackSize": 8,
+  "maxStackSize": 4,
   "textures": {
     "ceramic": { "base": "game:block/clay/crock/ceramic" }
   },
+  "heldTpIdleAnimation": "holdbothhands",
+  "heldTpUseAnimation": "twohandplaceblock",
   "sidesolid": { "all": false },
   "sideopaque": { "all": false },
   "guiTransform": {
@@ -55,9 +55,9 @@
     "scale": 2
   },
   "tpHandTransform": {
-    "translation": { "x": -0.56, "y": -0.03, "z": -0.52 },
-    "rotation": { "x": -139, "y": -21, "z": -118 },
+    "translation": { "x": -0.52, "y": 0.03, "z": -0.45 },
+    "rotation": { "x": -139, "y": -18, "z": -108 },
     "origin": { "x": 0.5, "y": 0.01, "z": 0.5 },
-    "scale": 0.81
+    "scale": 1
   }
 }

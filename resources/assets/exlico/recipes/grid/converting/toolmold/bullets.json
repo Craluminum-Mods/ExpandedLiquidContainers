@@ -1,0 +1,22 @@
+[
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": { "type": "block", "code": "game:toolmold-burned-bullets" }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": { "type": "block", "code": "lc_toolmold-bullets" }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": { "type": "block", "code": "lc_toolmold-bullets" }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": { "type": "block", "code": "game:toolmold-burned-bullets" }
+  }
+]

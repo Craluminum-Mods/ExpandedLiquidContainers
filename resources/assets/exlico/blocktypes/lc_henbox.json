@@ -23,9 +23,9 @@
     "liquidContainerProps": {
       "capacityLitres": 8,
       "transferSizeLitres": 1,
-      "emptyShapeLoc": "shapes/henbox-empty-ground",
-      "opaqueContentShapeLoc": "shapes/henbox-contents",
-      "liquidContentShapeLoc": "shapes/henbox-liquidcontents",
+      "emptyShapeLoc": "shapes/wood/henbox-empty-ground",
+      "opaqueContentShapeLoc": "shapes/wood/henbox-opaque",
+      "liquidContentShapeLoc": "shapes/wood/henbox-liquid",
       "liquidMaxYTranslate": 0.1
     },
     "groundStorageTransform": {
@@ -37,28 +37,33 @@
       "scale": 0.85
     }
   },
-  "shape": { "base": "henbox-empty-ground" },
+  "shape": { "base": "wood/henbox-empty-ground" },
+  "materialDensity": 600,
   "blockmaterial": "Wood",
   "creativeInventory": { "exlico": ["*"] },
   "liquidSelectable": true,
-  "resistance": 1,
-  "lightAbsorption": 0,
   "maxStackSize": 4,
   "textures": {
     "sides": { "base": "game:block/henbox/sides" },
     "wood": { "base": "game:block/wood/planks/generic" }
   },
+  "heldTpIdleAnimation": "holdbothhands",
+  "heldTpUseAnimation": "twohandplaceblock",
   "sidesolid": { "all": false },
   "sideopaque": { "all": false },
   "sideao": { "all": false },
-  "tphandTransform": {
+  "tpHandTransform": {
+    "translation": { "x": -1.18, "y": -1.06, "z": 0.66 },
+    "rotation": { "x": 43, "y": 19, "z": -73 },
     "origin": { "x": 0.5, "y": 0.5, "z": 0 },
-    "translation": { "x": -1.2, "y": -0.5, "z": 0.5 },
-    "rotation": { "x": 0, "y": 0, "z": 0 },
-    "scale": 0.5
+    "scale": 0.6
   },
   "guiTransform": {
     "origin": { "x": 0.5, "y": 0.15, "z": 0.5 },
     "scale": 1.8
+  },
+  "groundTransform": {
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 3
   }
 }
