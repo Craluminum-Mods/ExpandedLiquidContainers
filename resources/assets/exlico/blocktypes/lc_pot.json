@@ -21,12 +21,17 @@
   ],
   "attributes": {
     "liquidContainerProps": {
-      "capacityLitres": 10,
+      "capacityLitres": 6,
       "transferSizeLitres": 1,
       "emptyShapeLoc": "game:shapes/block/clay/pot-opened-empty",
       "opaqueContentShapeLoc": "shapes/clay/pot-opaque",
       "liquidContentShapeLoc": "shapes/clay/pot-liquid",
       "liquidMaxYTranslate": 0.25
+    },
+    "shelvable": true,
+    "onDisplayTransform": {
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.9
     }
   },
   "shape": { "base": "game:block/clay/pot-opened-empty" },

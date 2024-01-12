@@ -21,13 +21,14 @@
   ],
   "attributes": {
     "liquidContainerProps": {
-      "capacityLitres": 8,
+      "capacityLitres": 4,
       "transferSizeLitres": 1,
       "emptyShapeLoc": "game:shapes/block/clay/crucible",
       "opaqueContentShapeLoc": "shapes/clay/crucible-opaque",
       "liquidContentShapeLoc": "shapes/clay/crucible-liquid",
       "liquidMaxYTranslate": 0.24
-    }
+    },
+    "shelvable": true
   },
   "shape": { "base": "game:block/clay/crucible" },
   "blockmaterial": "Ceramic",

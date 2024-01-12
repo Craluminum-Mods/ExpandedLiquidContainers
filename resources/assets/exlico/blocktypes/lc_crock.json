@@ -21,12 +21,17 @@
   ],
   "attributes": {
     "liquidContainerProps": {
-      "capacityLitres": 8,
+      "capacityLitres": 4,
       "transferSizeLitres": 1,
       "emptyShapeLoc": "shapes/clay/crock-empty-ground",
       "opaqueContentShapeLoc": "shapes/clay/crock-opaque",
       "liquidContentShapeLoc": "shapes/clay/crock-liquid",
       "liquidMaxYTranslate": 0.21875
+    },
+    "shelvable": true,
+    "onDisplayTransform": {
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 1
     }
   },
   "shape": { "base": "clay/crock-empty-ground" },

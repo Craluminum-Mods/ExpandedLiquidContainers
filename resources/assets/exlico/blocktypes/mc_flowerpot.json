@@ -1,6 +1,7 @@
 {
-  "code": "lc_flowerpot",
-  "class": "BlockLiquidContainerTopOpened",
+  "code": "mc_flowerpot",
+  "class": "BlockMeal",
+  "entityClass": "Meal",
   "behaviors": [
     {
       "name": "GroundStorable",
@@ -20,18 +21,8 @@
     { "name": "RightClickPickup" }
   ],
   "attributes": {
-    "liquidContainerProps": {
-      "capacityLitres": 10,
-      "transferSizeLitres": 1,
-      "emptyShapeLoc": "game:shapes/block/clay/flowerpot/empty",
-      "opaqueContentShapeLoc": "shapes/clay/flowerpot-opaque",
-      "liquidContentShapeLoc": "shapes/clay/flowerpot-liquid",
-      "liquidMaxYTranslate": 0.345
-    },
-    "mealContainer": true,
-    "mealBlockCode": "exlico:mc_flowerpot-{type}",
-    "servingCapacity": 8,
-    "bowlContents": null,
+    "eatenBlock": "exlico:lc_flowerpot-{type}",
+    "handleCookingContainerInteract": true,
     "shelvable": true,
     "onDisplayTransform": {
       "origin": { "x": 0.5, "y": 0, "z": 0.5 },
@@ -41,14 +32,26 @@
   "variantgroups": [
     {
       "code": "type",
-      "states": ["amber", "boneash", "burnt", "celadon", "copper", "earthern", "moss", "ochre", "rutile", "seasalt", "tenmoku"]
+      "states": [
+        "amber",
+        "boneash",
+        "burnt",
+        "celadon",
+        "copper",
+        "earthern",
+        "moss",
+        "ochre",
+        "rutile",
+        "seasalt",
+        "tenmoku"
+      ]
     }
   ],
   "shape": { "base": "game:block/clay/flowerpot/empty" },
   "blockmaterial": "Ceramic",
-  "creativeInventory": { "exlico": ["*"] },
+  "creativeInventory": { "exlico": [""] },
   "liquidSelectable": true,
-  "maxStackSize": 4,
+  "maxStackSize": 1,
   "textures": {
     "sides": { "base": "game:block/clay/flowerpot/sides/{type}" },
     "topbottom": { "base": "game:block/clay/flowerpot/topbottom/{type}" }

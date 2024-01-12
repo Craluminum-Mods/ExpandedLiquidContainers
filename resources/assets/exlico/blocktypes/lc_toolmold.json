@@ -59,20 +59,7 @@
   "variantGroups": [
     {
       "code": "tooltype",
-      "states": [
-        "anvil",
-        "axe",
-        "bullets",
-        "hammer",
-        "helvehammer",
-        "hoe",
-        "ingot",
-        "lamellae",
-        "longblade",
-        "pickaxe",
-        "prospectingpick",
-        "shovel"
-      ]
+      "states": ["anvil", "axe", "bullets", "hammer", "helvehammer", "hoe", "ingot", "lamellae", "longblade", "pickaxe", "prospectingpick", "shovel"]
     }
   ],
   "attributes": {
@@ -122,6 +109,14 @@
     "groundStorageTransformByType": {
       "*-ingot": {
         "rotation": { "x": 0, "y": 45, "z": 0 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 0.9
+      }
+    },
+    "shelvableByType": { "*-ingot": true },
+    "onDisplayTransformByType": {
+      "*-ingot": {
+        "rotation": { "x": 0, "y": 10, "z": 0 },
         "origin": { "x": 0.5, "y": 0, "z": 0.5 },
         "scale": 0.9
       }
